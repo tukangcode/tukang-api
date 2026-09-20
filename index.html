@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Provider Hub — Direktori Penyedia Layanan AI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="hero">
+      <div class="hero-bg"></div>
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="logo">AI</div>
+          <div>
+            <h1>AI Provider Hub</h1>
+            <p>Direktori penyedia layanan AI: API, aggregator, & toko akun</p>
+          </div>
+        </div>
+        <span class="badge-count" id="badge-count"></span>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <div class="container nav-inner">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="legal.html">Legal Notice</a>
+        <a class="nav-link" href="about.html">About Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="disclaimer">
+      <strong>⚠ Pengingat</strong>
+      <p>Situs ini hanyalah <b>index/direktori layanan</b> pihak ketiga dan kami <b>tidak bertanggung jawab atas kerugian</b> apa pun. Lakukan riset &amp; due diligence sendiri. Baca <a href="legal.html">Legal Notice lengkap →</a></p>
+    </div>
+
+    <div class="toolbar">
+      <div class="search-box">
+        <span class="icon">🔍</span>
+        <input type="text" id="search" aria-label="Cari penyedia" placeholder="Cari nama, fitur, catatan…">
+      </div>
+      <select class="filter" id="filter-type" aria-label="Tipe layanan">
+        <option value="all">Semua Tipe</option>
+      </select>
+      <select class="filter" id="filter-model" aria-label="Jenis model">
+        <option value="all">Semua Jenis Model</option>
+      </select>
+      <select class="filter" id="filter-status">
+        <option value="all">Semua status website</option>
+        <option value="active">Website aktif (manual)</option>
+      </select>
+    </div>
+    <p class="result-info">WIP sistem cek uptime — update #3.</p>
+    <p class="result-info" id="result-info" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><b>Code by Sena</b> 💜</p>
+      <p>Dibuat dari catatan manual • Data per terakhir kali catatan dibuat —
+      selalu cek situs asli sebelum bertransaksi.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/details.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
