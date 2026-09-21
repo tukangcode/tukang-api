@@ -6,7 +6,18 @@ const esc = (s) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 function statusBadge(p) {
-  return `<span class="chip">✓ Website aktif · manual</span>`;
+  const s = window.__providerStatus && window.__providerStatus.sites[p.id];
+  if (s === "up") return `<span class="chip chip-up">✓ Website aktif</span>`;
+  if (s === "down") return `<span class="chip chip-down">✗ Tidak bisa diakses saat cek terakhir</span>`;
+  return `<span class="chip">… status belum dicek</span>`;
+}
+
+/* Ambil status hasil GitHub Actions (js/status.json). Gagal = diam-diam, badge tetap "belum dicek". */
+async function loadStatus() {
+  try {
+    const res = await fetch("js/status.json?nocache=" + Date.now());
+    if (res.ok) window.__providerStatus = await res.json();
+  } catch { /* file belum ada / offline — abaikan */ }
 }
 
 function cardHTML(p) {
@@ -162,7 +173,7 @@ function initDetail() {
         <tr><td>Mata uang</td><td>${esc(p.currency)}</td></tr>
         <tr><td>Skema pembayaran</td><td>${esc(p.scheme)}</td></tr>
         <tr><td>Metode bayar</td><td>${payment}</td></tr>
-        <tr><td>Status website</td><td>Aktif — pengaturan manual, bukan hasil monitor uptime atau status model.</td></tr>
+        <tr><td>Status website</td><td>Dicek otomatis tiap 30 menit oleh GitHub Actions (1 request ringan per situs). ${window.__providerStatus ? "Cek terakhir: " + esc(new Date(window.__providerStatus.checked_at).toLocaleString("id-ID")) : "Belum ada hasil cek."} Ini status website saja, bukan ketersediaan model.</td></tr>
         <tr><td>URL</td><td><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.url)}</a></td></tr>
       </table>
     </div>
@@ -205,11 +216,16 @@ function initFaq() {
 }
 
 /* ===== BOOT ===== */
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadStatus();          // ambil status.json dulu (kalau ada)
   initIndex();
   initDetail();
   initFaq();
   const badge = document.getElementById("badge-count");
   if (badge) badge.textContent = PROVIDERS.length + " penyedia terdaftar";
+  const wip = document.getElementById("uptime-note");
+  if (wip && window.__providerStatus)
+    wip.textContent = "Status dicek otomatis tiap 30 menit (GitHub Actions) — terakhir: " +
+      new Date(window.__providerStatus.checked_at).toLocaleString("id-ID") + ".";
 });
 

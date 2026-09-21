@@ -466,3 +466,6 @@ const PROVIDERS = [
     ],
   },
 ];
+
+// Ekspor untuk Node (dipakai scripts/check-status.js di GitHub Actions); di browser baris ini tidak berpengaruh.
+if (typeof module !== "undefined" && module.exports) module.exports = PROVIDERS;

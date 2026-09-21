@@ -1,0 +1,30 @@
+name: Cek status provider
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # tiap 30 menit (jam UTC)
+  workflow_dispatch: {}      # bisa dipicu manual dari tab Actions
+
+permissions:
+  contents: write
+
+jobs:
+  check-status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Probe semua situs (1 request per situs, HEAD dulu lalu GET)
+        run: node scripts/check-status.js > js/status.json
+
+      - name: Commit hanya jika status berubah
+        run: |
+          git config user.name "status-bot"
+          git config user.email "status-bot@users.noreply.github.com"
+          git add js/status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update status provider [skip ci]"
+            git push
+          else
+            echo "Status tidak berubah, tidak ada commit."
+          fi
