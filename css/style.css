@@ -198,6 +198,7 @@ select.filter {
 /* Chip status uptime otomatis */
 .chip-up { background: rgba(80,200,120,.15); border-color: rgba(80,200,120,.5); color: #8ce8a8; }
 .chip-down { background: rgba(240,80,80,.12); border-color: rgba(240,80,80,.5); color: #ff9d9d; }
+.chip-manual { background: rgba(240,180,41,.12); border-color: rgba(240,180,41,.5); color: #ffd48a; }
 
 .empty-state {
   grid-column: 1 / -1; text-align: center; padding: 60px 20px;

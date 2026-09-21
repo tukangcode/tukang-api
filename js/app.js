@@ -9,6 +9,7 @@ function statusBadge(p) {
   const s = window.__providerStatus && window.__providerStatus.sites[p.id];
   if (s === "up") return `<span class="chip chip-up">✓ Website aktif</span>`;
   if (s === "down") return `<span class="chip chip-down">✗ Tidak bisa diakses saat cek terakhir</span>`;
+  if (s === "manual") return `<span class="chip chip-manual">⚠ Dicek manual — situs menolak cek otomatis</span>`;
   return `<span class="chip">… status belum dicek</span>`;
 }
 

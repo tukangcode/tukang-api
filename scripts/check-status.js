@@ -39,6 +39,11 @@ async function probe(url) {
   };
   await Promise.all(
     PROVIDERS.map(async (p) => {
+      if (p.statusCheck === "skip") {
+        out.sites[p.id] = "manual";   // tidak bisa dicek otomatis (bot-block) — nol request
+        console.error(`[status] ${p.id}: manual (skip)`);
+        return;
+      }
       out.sites[p.id] = await probe(p.url);
       console.error(`[status] ${p.id}: ${out.sites[p.id]}`);
     })

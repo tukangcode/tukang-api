@@ -267,6 +267,7 @@ const PROVIDERS = [
     legalNote: null,
     modelList: [],
     modelListStatus: "awaiting-source",
+    statusCheck: "skip",   // situs menolak request otomatis (bot-block) — dicek manual saja
     modelsApprox: false,
     name: "UnoRouter",
     url: "https://unorouter.com/id",
