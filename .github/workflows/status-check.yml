@@ -28,3 +28,36 @@ jobs:
           else
             echo "Status tidak berubah, tidak ada commit."
           fi
+
+  # Deploy Pages di run yang SAMA — push oleh GITHUB_TOKEN tidak bisa memicu
+  # workflow lain (anti-loop), jadi deploy harus dilakukan di sini.
+  deploy-pages:
+    needs: check-status
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+    steps:
+      - name: Checkout main (termasuk commit status-bot barusan)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
