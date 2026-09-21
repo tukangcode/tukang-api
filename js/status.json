@@ -1,23 +1,23 @@
 {
-  "checked_at": "2026-09-21T01:32:10.728Z",
+  "checked_at": "2026-09-21T06:43:23.232Z",
   "source": "github-actions",
   "note": "1 request per situs per run (30 menit). Bukan pemantauan model/ketersediaan layanan.",
   "sites": {
     "zytroapi": "up",
-    "rentalmail": "up",
-    "cosmoshubid": "up",
     "pecutopus": "up",
-    "ruvicode": "up",
+    "cosmoshubid": "up",
+    "rentalmail": "up",
     "ninerouter": "up",
     "unorouter": "down",
+    "ruvicode": "up",
     "sumopod": "up",
-    "modelrouter": "up",
-    "digicodestore": "up",
     "nanogpt": "up",
+    "modelrouter": "up",
     "tokenkoding": "up",
-    "dahono": "up",
     "kiosapi": "up",
+    "oaoclipora": "up",
+    "dahono": "up",
     "kelontongai": "up",
-    "oaoclipora": "up"
+    "digicodestore": "down"
   }
 }
