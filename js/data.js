@@ -386,9 +386,9 @@ const PROVIDERS = [
     tagline: "Gateway lokal open-source untuk Cursor, Claude Code, dan Cline.",
     models: 0,
     modelTypes: [],
-    currency: "Tidak berlaku (software lokal)",
+    currency: "$ (hanya display estimasi — 9Router sendiri tidak pernah menagih)",
     payment: [],
-    scheme: "Software lokal open-source; biaya mengikuti provider yang dihubungkan",
+    scheme: "9Router = FREE forever (open source, tidak pernah menagih). Kamu bayar langsung ke provider yang dipakai (subscripsi atau fee API); provider gratis tetap gratis.",
     status: "active",
     features: [
       "Gateway lokal open-source untuk Cursor, Claude Code, dan Cline",
@@ -398,8 +398,10 @@ const PROVIDERS = [
       "RTK diklaim dapat mengompresi hingga 40% menurut catatan manual; bukan jaminan",
     ],
     notes: [
-      "Software gateway lokal, bukan toko kredit API; pembayaran dan biaya bergantung pada provider yang dihubungkan.",
-      "Dukungan provider/model dan klaim kompresi RTK berasal dari catatan manual, belum diverifikasi langsung.",
+      "Software 9Router gratis selamanya — open source, tidak pernah mengirim invoice atau mencharge kartu.",
+      "\"Biaya\" di dashboard hanyalah display estimasi biaya API berbayar (alat perbandingan penghematan), BUKAN tagihan. Contoh: display $290 di provider free-tier = itu nominal yang kamu hemat, bukan yang kamu bayar.",
+      "Provider gratis tetap gratis (mis. Kiro ~50 kredit/bln, OpenCode Free, Vertex $300 kredit = $0 dalam batas free tier). Catatan: free tier iFlow/Qwen/Gemini CLI sudah dihentikan sejak 2026.",
+      "Aturan bayar: provider subscripsi (Claude Code, Codex) dibayar langsung di situsnya; provider murah (GLM, MiniMax) dibayar langsung ke provider — 9Router hanya merutekan.",
     ],
   },
   {
