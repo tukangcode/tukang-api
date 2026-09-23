@@ -52,6 +52,7 @@ function initIndex() {
   const typeFilter = $("#filter-type");
   const modelFilter = $("#filter-model");
   const statusFilter = $("#filter-status");
+  const sortFilter = $("#filter-sort");
   const info = $("#result-info");
 
   // isi dropdown tipe dari data
@@ -73,8 +74,6 @@ function initIndex() {
     const ft = typeFilter.value;
     const fm = modelFilter.value;
     const fs = statusFilter.value;
-
-    const sortFilter = $("#filter-sort");
 
     const list = PROVIDERS.filter((p) => {
       if (ft !== "all" && p.type !== ft) return false;
