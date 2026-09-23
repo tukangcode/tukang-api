@@ -74,6 +74,8 @@ function initIndex() {
     const fm = modelFilter.value;
     const fs = statusFilter.value;
 
+    const sortFilter = $("#filter-sort");
+
     const list = PROVIDERS.filter((p) => {
       if (ft !== "all" && p.type !== ft) return false;
       if (fm !== "all" && !p.modelTypes.includes(fm)) return false;
@@ -86,14 +88,20 @@ function initIndex() {
       return true;
     });
 
+    // Sortir nama (default A-Z)
+    const dir = sortFilter ? sortFilter.value : "az";
+    list.sort((a, b) => dir === "za"
+      ? b.name.localeCompare(a.name, "id", { sensitivity: "base" })
+      : a.name.localeCompare(b.name, "id", { sensitivity: "base" }));
+
     grid.innerHTML = list.length
       ? list.map(cardHTML).join("")
       : `<div class="empty-state">Tidak ada hasil untuk filter/pencarian ini.</div>`;
     info.textContent = `Menampilkan ${list.length} dari ${PROVIDERS.length} penyedia layanan.`;
   }
 
-  [searchInput, typeFilter, modelFilter, statusFilter].forEach((el) =>
-    el.addEventListener("input", render));
+  [searchInput, typeFilter, modelFilter, statusFilter, sortFilter].forEach((el) =>
+    el && el.addEventListener("input", render));
   render();
 }
 
