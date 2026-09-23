@@ -126,7 +126,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Pembayarannya pakai apa?",
-    a: "Mayoritas penyedia di daftar ini bisa bayar pakai Rupiah (kecuali NanoGPT dan UnoRouter yang memakai USD; UnoRouter menerima kartu, crypto, atau PayPal, bukan QRIS). Metode pembayaran paling umum adalah QRIS.",
+    a: "Mayoritas penyedia menerima QRIS — kecuali penyedia berlambang $ (NanoGPT, UnoRouter, WaveSpeed, fal.ai, Dezgo, RunPod, Vast.ai, dan 9Router) yang memakai USD; mayoritas di antaranya menerima kartu dan/atau crypto.",
   },
   {
     q: "Pay as you go vs paket?",
