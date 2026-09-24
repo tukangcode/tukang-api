@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detail — AI Provider Hub</title>
+  <title>Scam List — AI Provider Hub</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,10 +15,10 @@
           <div class="logo">AI</div>
           <div>
             <h1>AI Provider Hub</h1>
-            <p>Detail penyedia layanan</p>
+            <p>Scam List — layanan yang dilaporkan scam</p>
           </div>
         </div>
-        <span class="badge-count"><a href="index.html">← Daftar</a></span>
+        <span class="badge-count" id="badge-count"></span>
       </div>
     </div>
     <nav class="site-nav">
@@ -26,20 +26,22 @@
         <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="legal.html">Legal Notice</a>
         <a class="nav-link" href="about.html">About Me</a>
-        <a class="nav-link" href="scam.html">Scam List</a>
+        <a class="nav-link active" href="scam.html">Scam List</a>
       </div>
     </nav>
   </header>
 
   <main class="container">
-    <div class="disclaimer">
-      <strong>⚠ Pengingat</strong>
-      <p>Situs ini hanyalah <b>index/direktori layanan</b> pihak ketiga. Selalu lakukan riset &amp; due diligence sendiri. Baca <a href="legal.html">Legal Notice →</a></p>
+    <div class="disclaimer disclaimer-scam">
+      <strong>⚠ Perhatian</strong>
+      <p>Daftar ini berisi layanan yang <b>dilaporkan scam oleh komunitas</b>. Kami tidak menjamin kebenaran setiap laporan — lakukan verifikasi mandiri. Laporan dan bukti: komunitas Hermes.</p>
     </div>
-    <div class="detail-wrap">
-      <a class="back-link" href="index.html">← Kembali ke daftar</a>
-      <div id="detail-mount"></div>
-    </div>
+
+    <section class="section">
+      <h2>🚫 Scam List</h2>
+      <p class="result-info">Sumber laporan: komunitas Hermes.</p>
+      <div class="grid" id="scam-grid"></div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -51,7 +53,6 @@
   </footer>
 
   <script src="js/data.js"></script>
-  <script src="js/details.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

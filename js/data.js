@@ -177,33 +177,6 @@ const PROVIDERS = [
     ],
   },
   {
-    id: "digicodestore",
-    termsUrl: null,
-    privacyUrl: null,
-    legalNote: "TIDAK ADA TOS dan Privacy Policy",
-    modelList: [],
-    modelListStatus: "awaiting-source",
-    modelsApprox: false,
-    name: "DigiCode Store",
-    url: "https://digicodestore.my.id",
-    pricingUrl: "https://digicodestore.my.id/katalog.php",
-    type: "Account Store",
-    tagline: "Toko akun — AI, streaming, VPN, dan barang misc.",
-    models: 0,
-    modelTypes: [],
-    currency: "IDR (Rp)",
-    payment: ["QRIS"],
-    scheme: "Beli akun",
-    status: "active",
-    features: [
-      "Account store (toko akun)",
-      "Kategori: AI, streaming, VPN, dan misc",
-    ],
-    notes: [
-      "Katalog lengkap tersedia di halaman katalog.php.",
-    ],
-  },
-  {
     id: "modelrouter",
     termsUrl: null,
     privacyUrl: null,
@@ -694,6 +667,22 @@ const PROVIDERS = [
       "Aggregator model SOTA, China, open source, dan Eropa.",
       "Katalog model: wavespeed.ai/models.",
     ],
+  },
+];
+
+/* ===== Scam List =====
+ * Daftar layanan yang dilaporkan scam oleh komunitas.
+ * Detail laporan per entri bisa kosong dulu (diisi kurator).
+ */
+const SCAM_LIST = [
+  {
+    id: "digicodestore",
+    name: "DigiCode Store",
+    url: "https://digicodestore.my.id",
+    type: "Account Store",
+    reportedVia: "Laporan komunitas Hermes",
+    reason: "",   // detail kenapa scam — kosong untuk sementara, menunggu laporan
+    reportedAt: "",
   },
 ];
 

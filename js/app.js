@@ -223,11 +223,41 @@ function initFaq() {
   });
 }
 
+/* ===== SCAM PAGE ===== */
+function scamCardHTML(s) {
+  const reason = s.reason
+    ? `<p class="scam-reason">${esc(s.reason)}</p>`
+    : `<p class="scam-reason-empty">Detail laporan belum tersedia — menunggu laporan lengkap dari komunitas.</p>`;
+  return `
+  <article class="scam-card">
+    <h3>🚫 ${esc(s.name)}</h3>
+    <div class="scam-meta">
+      <span>Tipe: ${esc(s.type)}</span>
+      <span>Sumber: ${esc(s.reportedVia)}</span>
+      ${s.reportedAt ? `<span>Dilaporkan: ${esc(s.reportedAt)}</span>` : ""}
+    </div>
+    ${reason}
+    <div class="card-actions" style="margin-top:12px">
+      <a class="btn btn-outline" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Situs terlapor ↗</a>
+    </div>
+  </article>`;
+}
+
+function initScam() {
+  const grid = $("#scam-grid");
+  if (!grid) return;
+  const list = (typeof SCAM_LIST !== "undefined" ? SCAM_LIST : []);
+  grid.innerHTML = list.length
+    ? list.map(scamCardHTML).join("")
+    : `<div class="empty-state">Belum ada laporan scam.</div>`;
+}
+
 /* ===== BOOT ===== */
 document.addEventListener("DOMContentLoaded", async () => {
   await loadStatus();          // ambil status.json dulu (kalau ada)
   initIndex();
   initDetail();
+  initScam();
   initFaq();
   const badge = document.getElementById("badge-count");
   if (badge) badge.textContent = PROVIDERS.length + " penyedia terdaftar";
