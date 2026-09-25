@@ -18,7 +18,7 @@ const PROVIDERS = [
     pricingUrl: "https://zytroapi.my.id/#harga",
     type: "API Provider",
     tagline: "API provider dengan koleksi model SOTA & China flagship.",
-    models: 69,
+    models: 71,
     modelTypes: ["SOTA", "China Flagship"],
     currency: "IDR (Rp)",
     payment: ["QRIS"],

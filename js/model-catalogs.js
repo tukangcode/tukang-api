@@ -12,9 +12,14 @@
     "sourceLabel": "Tabel status+harga situs (1P = Rp1)",
     "models": [
       {
+        "id": "claude-fable-5",
+        "name": "claude-fable-5",
+        "meta": "Rp 6.250/1 jt"
+      },
+      {
         "id": "claude-fable-5.1",
         "name": "claude-fable-5.1",
-        "meta": "Rp 9/1 jt"
+        "meta": "Rp 9.250/1 jt"
       },
       {
         "id": "claude-haiku-4.5",
@@ -24,27 +29,27 @@
       {
         "id": "claude-opus-4.6",
         "name": "claude-opus-4.6",
-        "meta": "Rp 4/1 jt"
+        "meta": "Rp 3.900/1 jt"
       },
       {
         "id": "claude-opus-4.7",
         "name": "claude-opus-4.7",
-        "meta": "Rp 4/1 jt"
+        "meta": "Rp 4.400/1 jt"
       },
       {
         "id": "claude-opus-4.8",
         "name": "claude-opus-4.8",
-        "meta": "Rp 4/1 jt"
+        "meta": "Rp 4.400/1 jt"
       },
       {
         "id": "claude-opus-5",
         "name": "claude-opus-5",
-        "meta": "Rp 4/1 jt"
+        "meta": "Rp 4.400/1 jt"
       },
       {
         "id": "claude-opus-5.5",
         "name": "claude-opus-5.5",
-        "meta": "Rp 3/1 jt"
+        "meta": "Rp 2.700/1 jt"
       },
       {
         "id": "claude-sonnet-4.5",
@@ -54,12 +59,12 @@
       {
         "id": "claude-sonnet-4.6",
         "name": "claude-sonnet-4.6",
-        "meta": "Rp 2/1 jt"
+        "meta": "Rp 2.100/1 jt"
       },
       {
         "id": "claude-sonnet-5",
         "name": "claude-sonnet-5",
-        "meta": "Rp 4/1 jt"
+        "meta": "Rp 3.500/1 jt"
       },
       {
         "id": "deepseek-3.2",
@@ -94,7 +99,7 @@
       {
         "id": "gemini-3.1-pro",
         "name": "gemini-3.1-pro",
-        "meta": "Rp 2/1 jt"
+        "meta": "Rp 1.500/1 jt"
       },
       {
         "id": "gemini-3.5-flash",
@@ -109,12 +114,12 @@
       {
         "id": "gemini-3.7-flash",
         "name": "gemini-3.7-flash",
-        "meta": "Rp 2/1 jt"
+        "meta": "Rp 1.500/1 jt"
       },
       {
         "id": "gemini-3.8-flash",
         "name": "gemini-3.8-flash",
-        "meta": "Rp 1/1 jt"
+        "meta": "Rp 1.000/1 jt"
       },
       {
         "id": "glm-5",
@@ -134,12 +139,12 @@
       {
         "id": "glm-5.2",
         "name": "glm-5.2",
-        "meta": "Rp 1/1 jt"
+        "meta": "Rp 1.100/1 jt"
       },
       {
         "id": "glm-5.3",
         "name": "glm-5.3",
-        "meta": "Rp 1/1 jt"
+        "meta": "Rp 1.300/1 jt"
       },
       {
         "id": "glm-5.3-flash",
@@ -149,7 +154,7 @@
       {
         "id": "glm-5.3-flashx",
         "name": "glm-5.3-flashx",
-        "meta": "Rp 1/1 jt"
+        "meta": "Rp 1.200/1 jt"
       },
       {
         "id": "glm-5v-turbo",
@@ -164,32 +169,32 @@
       {
         "id": "gpt-5.3-codex",
         "name": "gpt-5.3-codex",
-        "meta": "Rp 1/1 jt"
+        "meta": "Rp 1.200/1 jt"
       },
       {
         "id": "gpt-5.5",
         "name": "gpt-5.5",
-        "meta": "Rp 2/1 jt"
+        "meta": "Rp 2.100/1 jt"
       },
       {
         "id": "gpt-5.6-luna",
         "name": "gpt-5.6-luna",
-        "meta": "Rp 2/1 jt"
+        "meta": "Rp 1.500/1 jt"
       },
       {
         "id": "gpt-5.6-sol",
         "name": "gpt-5.6-sol",
-        "meta": "Rp 3/1 jt"
+        "meta": "Rp 3.000/1 jt"
       },
       {
         "id": "gpt-5.6-terra",
         "name": "gpt-5.6-terra",
-        "meta": "Rp 2/1 jt"
+        "meta": "Rp 2.100/1 jt"
       },
       {
         "id": "gpt-6-astra",
         "name": "gpt-6-astra",
-        "meta": "Rp 6/1 jt"
+        "meta": "Rp 6.250/1 jt"
       },
       {
         "id": "gpt-6-luna",
@@ -199,7 +204,7 @@
       {
         "id": "gpt-6-sol",
         "name": "gpt-6-sol",
-        "meta": "Rp 3/1 jt"
+        "meta": "Rp 2.700/1 jt"
       },
       {
         "id": "grok-4.3",
@@ -214,7 +219,7 @@
       {
         "id": "grok-4.6",
         "name": "grok-4.6",
-        "meta": "Rp 2/1 jt"
+        "meta": "Rp 1.700/1 jt"
       },
       {
         "id": "grok-build-0.1",
@@ -224,7 +229,7 @@
       {
         "id": "grok-composer-2.5-fast",
         "name": "grok-composer-2.5-fast",
-        "meta": "Rp 1/1 jt"
+        "meta": "Rp 1.300/1 jt"
       },
       {
         "id": "hy3",
@@ -264,7 +269,7 @@
       {
         "id": "kimi-k3",
         "name": "kimi-k3",
-        "meta": "Rp 1/1 jt"
+        "meta": "Rp 1.300/1 jt"
       },
       {
         "id": "mimo-v2.5",
@@ -355,6 +360,11 @@
         "id": "qwen-3.8-max-0902",
         "name": "qwen-3.8-max-0902",
         "meta": "Rp 850/1 jt"
+      },
+      {
+        "id": "qwen3.8-max",
+        "name": "qwen3.8-max",
+        "meta": "Rp 750/1 jt"
       }
     ]
   },
