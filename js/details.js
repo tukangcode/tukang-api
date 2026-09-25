@@ -55,7 +55,8 @@ function renderCatalog(catalog) {
   const dropdowns = catalog.groups && catalog.groups.length
     ? catalog.groups.map((group) => catalogDropdown(group.name, group.models)).join('')
     : catalogDropdown('Semua model', catalog.models);
-  return `${catalogSource(catalog)}<div class="model-families">${dropdowns}</div>`;
+  const note = catalog.note ? `<p class="catalog-source"><b>Harga & paket:</b> ${esc(catalog.note)}</p>` : '';
+  return `${catalogSource(catalog)}<div class="model-families">${dropdowns}</div>${note}`;
 }
 
 function extraDetails(p) {

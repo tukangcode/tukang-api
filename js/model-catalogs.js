@@ -1,4 +1,5 @@
-/* Model catalogs: verified live snapshots + clearly labeled user-provided crawl data. */
+/* Model catalogs: verified live snapshots + clearly labeled user-provided crawl data.
+   Update 2026-09-25: harga & skema penggunaan ditambahkan dari unggahan kurator. */
 (function (root, factory) {
   const catalogs = factory();
   if (typeof module !== "undefined" && module.exports) module.exports = catalogs;
@@ -6,483 +7,571 @@
 })(typeof window !== "undefined" ? window : null, function () {
   return {
   "zytroapi": {
-    "status": "provided",
+    "status": "verified",
     "importedDate": "2026-09-25",
-    "sourceLabel": "Data crawl unggahan pengguna",
+    "sourceLabel": "Tabel status+harga situs (1P = Rp1)",
     "models": [
       {
-        "id": "claude-fable-5",
-        "name": "claude-fable-5"
-      },
-      {
         "id": "claude-fable-5.1",
-        "name": "claude-fable-5.1"
+        "name": "claude-fable-5.1",
+        "meta": "Rp 9.250/1 jt"
       },
       {
         "id": "claude-haiku-4.5",
-        "name": "claude-haiku-4.5"
+        "name": "claude-haiku-4.5",
+        "meta": "Rp 150/1 jt · offline"
       },
       {
         "id": "claude-opus-4.6",
-        "name": "claude-opus-4.6"
+        "name": "claude-opus-4.6",
+        "meta": "Rp 3.900/1 jt"
       },
       {
         "id": "claude-opus-4.7",
-        "name": "claude-opus-4.7"
+        "name": "claude-opus-4.7",
+        "meta": "Rp 4.400/1 jt"
       },
       {
         "id": "claude-opus-4.8",
-        "name": "claude-opus-4.8"
+        "name": "claude-opus-4.8",
+        "meta": "Rp 4.400/1 jt"
       },
       {
         "id": "claude-opus-5",
-        "name": "claude-opus-5"
+        "name": "claude-opus-5",
+        "meta": "Rp 4.400/1 jt"
       },
       {
         "id": "claude-opus-5.5",
-        "name": "claude-opus-5.5"
+        "name": "claude-opus-5.5",
+        "meta": "Rp 2.700/1 jt"
       },
       {
         "id": "claude-sonnet-4.5",
-        "name": "claude-sonnet-4.5"
+        "name": "claude-sonnet-4.5",
+        "meta": "Rp 150/1 jt · offline"
       },
       {
         "id": "claude-sonnet-4.6",
-        "name": "claude-sonnet-4.6"
+        "name": "claude-sonnet-4.6",
+        "meta": "Rp 2.100/1 jt"
       },
       {
         "id": "claude-sonnet-5",
-        "name": "claude-sonnet-5"
+        "name": "claude-sonnet-5",
+        "meta": "Rp 3.500/1 jt"
       },
       {
         "id": "deepseek-3.2",
-        "name": "deepseek-3.2"
+        "name": "deepseek-3.2",
+        "meta": "Rp 150/1 jt · offline"
       },
       {
         "id": "deepseek-v3.2",
-        "name": "deepseek-v3.2"
+        "name": "deepseek-v3.2",
+        "meta": "Rp 450/1 jt"
       },
       {
         "id": "deepseek-v4-flash",
-        "name": "deepseek-v4-flash"
+        "name": "deepseek-v4-flash",
+        "meta": "Rp 850/1 jt"
       },
       {
         "id": "deepseek-v4-pro",
-        "name": "deepseek-v4-pro"
+        "name": "deepseek-v4-pro",
+        "meta": "Rp 850/1 jt"
       },
       {
         "id": "deepseek-v4.1-flash",
-        "name": "deepseek-v4.1-flash"
+        "name": "deepseek-v4.1-flash",
+        "meta": "Rp 850/1 jt"
+      },
+      {
+        "id": "frontier-model-cheap",
+        "name": "frontier-model-cheap",
+        "meta": "Rp 500/1 jt"
       },
       {
         "id": "gemini-3.1-pro",
-        "name": "gemini-3.1-pro"
+        "name": "gemini-3.1-pro",
+        "meta": "Rp 1.500/1 jt"
       },
       {
         "id": "gemini-3.5-flash",
-        "name": "gemini-3.5-flash"
+        "name": "gemini-3.5-flash",
+        "meta": "Rp 860/1 jt · offline"
       },
       {
         "id": "gemini-3.6-flash",
-        "name": "gemini-3.6-flash"
+        "name": "gemini-3.6-flash",
+        "meta": "Rp 650/1 jt"
       },
       {
         "id": "gemini-3.7-flash",
-        "name": "gemini-3.7-flash"
+        "name": "gemini-3.7-flash",
+        "meta": "Rp 1.500/1 jt"
       },
       {
         "id": "gemini-3.8-flash",
-        "name": "gemini-3.8-flash"
+        "name": "gemini-3.8-flash",
+        "meta": "Rp 1.000/1 jt"
       },
       {
         "id": "glm-5",
-        "name": "glm-5"
+        "name": "glm-5",
+        "meta": "Rp 150/1 jt · offline"
       },
       {
         "id": "glm-5.0-turbo",
-        "name": "glm-5.0-turbo"
+        "name": "glm-5.0-turbo",
+        "meta": "Rp 850/1 jt"
       },
       {
         "id": "glm-5.1",
-        "name": "glm-5.1"
+        "name": "glm-5.1",
+        "meta": "Rp 850/1 jt"
       },
       {
         "id": "glm-5.2",
-        "name": "glm-5.2"
+        "name": "glm-5.2",
+        "meta": "Rp 1.100/1 jt"
       },
       {
         "id": "glm-5.3",
-        "name": "glm-5.3"
+        "name": "glm-5.3",
+        "meta": "Rp 1.300/1 jt"
       },
       {
         "id": "glm-5.3-flash",
-        "name": "glm-5.3-flash"
+        "name": "glm-5.3-flash",
+        "meta": "Rp 850/1 jt"
       },
       {
         "id": "glm-5.3-flashx",
-        "name": "glm-5.3-flashx"
+        "name": "glm-5.3-flashx",
+        "meta": "Rp 1.200/1 jt"
       },
       {
         "id": "glm-5v-turbo",
-        "name": "glm-5v-turbo"
+        "name": "glm-5v-turbo",
+        "meta": "Rp 850/1 jt"
       },
       {
         "id": "gpt-4o",
-        "name": "gpt-4o"
+        "name": "gpt-4o",
+        "meta": "Rp 250/1 jt"
       },
       {
         "id": "gpt-5.3-codex",
-        "name": "gpt-5.3-codex"
+        "name": "gpt-5.3-codex",
+        "meta": "Rp 1.200/1 jt"
       },
       {
         "id": "gpt-5.5",
-        "name": "gpt-5.5"
+        "name": "gpt-5.5",
+        "meta": "Rp 2.100/1 jt"
       },
       {
         "id": "gpt-5.6-luna",
-        "name": "gpt-5.6-luna"
+        "name": "gpt-5.6-luna",
+        "meta": "Rp 1.500/1 jt"
       },
       {
         "id": "gpt-5.6-sol",
-        "name": "gpt-5.6-sol"
+        "name": "gpt-5.6-sol",
+        "meta": "Rp 3.000/1 jt"
       },
       {
         "id": "gpt-5.6-terra",
-        "name": "gpt-5.6-terra"
+        "name": "gpt-5.6-terra",
+        "meta": "Rp 2.100/1 jt"
       },
       {
         "id": "gpt-6-astra",
-        "name": "gpt-6-astra"
+        "name": "gpt-6-astra",
+        "meta": "Rp 6.250/1 jt"
       },
       {
         "id": "gpt-6-luna",
-        "name": "gpt-6-luna"
+        "name": "gpt-6-luna",
+        "meta": "Rp 250/1 jt"
       },
       {
         "id": "gpt-6-sol",
-        "name": "gpt-6-sol"
+        "name": "gpt-6-sol",
+        "meta": "Rp 2.700/1 jt"
       },
       {
         "id": "grok-4.3",
-        "name": "grok-4.3"
+        "name": "grok-4.3",
+        "meta": "Rp 450/1 jt"
       },
       {
         "id": "grok-4.5",
-        "name": "grok-4.5"
+        "name": "grok-4.5",
+        "meta": "Rp 800/1 jt"
       },
       {
         "id": "grok-4.6",
-        "name": "grok-4.6"
+        "name": "grok-4.6",
+        "meta": "Rp 1.700/1 jt"
       },
       {
         "id": "grok-build-0.1",
-        "name": "grok-build-0.1"
+        "name": "grok-build-0.1",
+        "meta": "Rp 550/1 jt"
       },
       {
         "id": "grok-composer-2.5-fast",
-        "name": "grok-composer-2.5-fast"
+        "name": "grok-composer-2.5-fast",
+        "meta": "Rp 1.300/1 jt"
       },
       {
         "id": "hy3",
-        "name": "hy3"
+        "name": "hy3",
+        "meta": "Rp 350/1 jt"
       },
       {
         "id": "hy4",
-        "name": "hy4"
+        "name": "hy4",
+        "meta": "Rp 400/1 jt"
       },
       {
         "id": "hy4-preview",
-        "name": "hy4-preview"
+        "name": "hy4-preview",
+        "meta": "Rp 450/1 jt"
+      },
+      {
+        "id": "kimi-k2.5",
+        "name": "kimi-k2.5",
+        "meta": "Rp 750/1 jt"
+      },
+      {
+        "id": "kimi-k2.6",
+        "name": "kimi-k2.6",
+        "meta": "Rp 800/1 jt"
+      },
+      {
+        "id": "kimi-k2.7",
+        "name": "kimi-k2.7",
+        "meta": "Rp 750/1 jt"
+      },
+      {
+        "id": "kimi-k2.7-code",
+        "name": "kimi-k2.7-code",
+        "meta": "Rp 950/1 jt"
+      },
+      {
+        "id": "kimi-k3",
+        "name": "kimi-k3",
+        "meta": "Rp 1.300/1 jt"
       },
       {
         "id": "mimo-v2.5",
-        "name": "mimo-v2.5"
+        "name": "mimo-v2.5",
+        "meta": "Rp 400/1 jt"
       },
       {
         "id": "mimo-v2.5-pro",
-        "name": "mimo-v2.5-pro"
+        "name": "mimo-v2.5-pro",
+        "meta": "Rp 750/1 jt"
       },
       {
         "id": "minimax-m2.5",
-        "name": "minimax-m2.5"
+        "name": "minimax-m2.5",
+        "meta": "Rp 300/1 jt"
       },
       {
         "id": "minimax-m2.7",
-        "name": "minimax-m2.7"
+        "name": "minimax-m2.7",
+        "meta": "Rp 650/1 jt"
       },
       {
         "id": "minimax-m3",
-        "name": "minimax-m3"
+        "name": "minimax-m3",
+        "meta": "Rp 750/1 jt"
       },
       {
         "id": "muse-spark-1.2",
-        "name": "muse-spark-1.2"
+        "name": "muse-spark-1.2",
+        "meta": "Rp 750/1 jt"
       },
       {
         "id": "muse-spark-1.3",
-        "name": "muse-spark-1.3"
+        "name": "muse-spark-1.3",
+        "meta": "Rp 750/1 jt"
+      },
+      {
+        "id": "nemotron-3-super",
+        "name": "nemotron-3-super",
+        "meta": "Rp 300/1 jt · offline"
       },
       {
         "id": "qwen-3.5-flash",
-        "name": "qwen-3.5-flash"
+        "name": "qwen-3.5-flash",
+        "meta": "Rp 450/1 jt"
       },
       {
         "id": "qwen-3.5-plus",
-        "name": "qwen-3.5-plus"
+        "name": "qwen-3.5-plus",
+        "meta": "Rp 450/1 jt"
       },
       {
         "id": "qwen-3.6-flash",
-        "name": "qwen-3.6-flash"
+        "name": "qwen-3.6-flash",
+        "meta": "Rp 450/1 jt"
       },
       {
         "id": "qwen-3.6-plus",
-        "name": "qwen-3.6-plus"
+        "name": "qwen-3.6-plus",
+        "meta": "Rp 450/1 jt"
       },
       {
         "id": "qwen-3.7-flash",
-        "name": "qwen-3.7-flash"
+        "name": "qwen-3.7-flash",
+        "meta": "Rp 450/1 jt"
       },
       {
         "id": "qwen-3.7-max",
-        "name": "qwen-3.7-max"
+        "name": "qwen-3.7-max",
+        "meta": "Rp 650/1 jt"
       },
       {
         "id": "qwen-3.7-plus",
-        "name": "qwen-3.7-plus"
+        "name": "qwen-3.7-plus",
+        "meta": "Rp 550/1 jt"
       },
       {
         "id": "qwen-3.8-flash",
-        "name": "qwen-3.8-flash"
+        "name": "qwen-3.8-flash",
+        "meta": "Rp 750/1 jt"
       },
       {
         "id": "qwen-3.8-max",
-        "name": "qwen-3.8-max"
+        "name": "qwen-3.8-max",
+        "meta": "Rp 850/1 jt"
       },
       {
         "id": "qwen-3.8-max-0902",
-        "name": "qwen-3.8-max-0902"
-      },
-      {
-        "id": "qwen3.8-max",
-        "name": "qwen3.8-max"
+        "name": "qwen-3.8-max-0902",
+        "meta": "Rp 850/1 jt"
       }
     ]
   },
   "ruvicode": {
     "status": "verified",
-    "observedDate": "2026-09-24",
-    "sourceLabel": "Katalog live RuviCode (3 halaman)",
-    "sourceUrl": "https://ruvicode.com/models",
+    "importedDate": "2026-09-25",
+    "sourceLabel": "Tabel harga situs (Rp/1 jt token)",
     "models": [
       {
         "id": "deepseek-v4-flash-0731",
-        "name": "DeepSeek V4 Flash 0731",
-        "meta": "Konteks 1.05M"
+        "name": "deepseek-v4-flash-0731",
+        "meta": "in Rp 118 · cache Rp 24 · out Rp 1.260 /1 jt · ctx 1.05M"
       },
       {
         "id": "deepseek-v4-flash",
-        "name": "DeepSeek V4 Flash",
-        "meta": "Konteks 1.05M"
+        "name": "deepseek-v4-flash",
+        "meta": "in Rp 412 · cache Rp 82 · out Rp 824 /1 jt · ctx 1.05M"
       },
       {
         "id": "deepseek-v4.1-flash",
-        "name": "DeepSeek V4.1 Flash",
-        "meta": "Konteks 1M"
+        "name": "deepseek-v4.1-flash",
+        "meta": "in Rp 506 · cache Rp 16 · out Rp 1.519 /1 jt · ctx 1M"
       },
       {
         "id": "glm-5.3-flash",
-        "name": "GLM 5.3 Flash",
-        "meta": "Konteks 1M"
+        "name": "glm-5.3-flash",
+        "meta": "in Rp 629 · cache Rp 126 · out Rp 2.096 /1 jt · ctx 1M"
       },
       {
         "id": "gpt-5.6-luna",
-        "name": "GPT 5.6 Luna",
-        "meta": "Konteks 1.05M"
+        "name": "gpt-5.6-luna",
+        "meta": "in Rp 760 · cache Rp 76 · out Rp 4.561 /1 jt · ctx 1.05M"
       },
       {
         "id": "minimax-m2.5",
-        "name": "Minimax M2.5",
-        "meta": "Konteks 205K"
+        "name": "minimax-m2.5",
+        "meta": "in Rp 1.063 · cache Rp 106 · out Rp 3.740 /1 jt · ctx 205K"
       },
       {
         "id": "minimax-m2.7",
-        "name": "Minimax M2.7",
-        "meta": "Konteks 205K"
+        "name": "minimax-m2.7",
+        "meta": "in Rp 1.248 · cache Rp 250 · out Rp 4.991 /1 jt · ctx 205K"
       },
       {
         "id": "deepseek-v4-pro-0813",
-        "name": "DeepSeek V4 Pro 0813",
-        "meta": "Konteks 1M"
-      },
-      {
-        "id": "kimi-k2.7-code",
-        "name": "Kimi K2.7 Code",
-        "meta": "Konteks 256K"
-      },
-      {
-        "id": "glm-5.2",
-        "name": "GLM 5.2",
-        "meta": "Konteks 1M"
+        "name": "deepseek-v4-pro-0813",
+        "meta": "in Rp 1.830 · cache Rp 61 · out Rp 5.489 /1 jt · ctx 1M"
       },
       {
         "id": "gpt-5.6-luna-pro",
-        "name": "GPT 5.6 Luna Pro",
-        "meta": "Konteks 1.05M"
+        "name": "gpt-5.6-luna-pro",
+        "meta": "in Rp 2.323 · cache Rp 232 · out Rp 13.936 /1 jt · ctx 1.05M"
+      },
+      {
+        "id": "glm-5.2",
+        "name": "glm-5.2",
+        "meta": "in Rp 2.413 · cache Rp 448 · out Rp 7.584 /1 jt · ctx 1M"
+      },
+      {
+        "id": "kimi-k2.7-code",
+        "name": "kimi-k2.7-code",
+        "meta": "in Rp 2.419 · cache Rp 589 · out Rp 12.163 /1 jt · ctx 256K"
       },
       {
         "id": "gemini-3.8-flash",
-        "name": "Gemini 3.8 Flash",
-        "meta": "Konteks 1.05M"
+        "name": "gemini-3.8-flash",
+        "meta": "in Rp 2.742 · cache Rp 275 · out Rp 13.710 /1 jt · ctx 1.05M"
       },
       {
         "id": "gemini-3.7-flash",
-        "name": "Gemini 3.7 Flash",
-        "meta": "Konteks 1.05M"
+        "name": "gemini-3.7-flash",
+        "meta": "in Rp 2.811 · cache Rp 281 · out Rp 14.054 /1 jt · ctx 1.05M"
       },
       {
         "id": "kimi-k2.6",
-        "name": "Kimi K2.6",
-        "meta": "Konteks 256K"
+        "name": "kimi-k2.6",
+        "meta": "in Rp 2.819 · cache Rp 601 · out Rp 13.154 /1 jt · ctx 256K"
       },
       {
         "id": "glm-5.3",
-        "name": "GLM 5.3",
-        "meta": "Konteks 1M"
+        "name": "glm-5.3",
+        "meta": "in Rp 3.256 · cache Rp 605 · out Rp 10.235 /1 jt · ctx 1M"
       },
       {
         "id": "gpt-5.4-mini",
-        "name": "GPT 5.4 Mini",
-        "meta": "Konteks 400K"
-      },
-      {
-        "id": "kimi-k2.5",
-        "name": "Kimi K2.5",
-        "meta": "Konteks 256K"
+        "name": "gpt-5.4-mini",
+        "meta": "in Rp 3.356 · cache Rp 336 · out Rp 20.133 /1 jt · ctx 400K"
       },
       {
         "id": "deepseek-v4-pro",
-        "name": "DeepSeek V4 Pro",
-        "meta": "Konteks 1.05M"
+        "name": "deepseek-v4-pro",
+        "meta": "in Rp 3.607 · cache Rp 301 · out Rp 7.214 /1 jt · ctx 1.05M"
       },
       {
-        "id": "gemini-3-5-flash",
-        "name": "Gemini 3 5 Flash",
-        "meta": "Konteks 1.05M"
+        "id": "kimi-k2.5",
+        "name": "kimi-k2.5",
+        "meta": "in Rp 3.624 · cache Rp 564 · out Rp 18.120 /1 jt · ctx 256K"
       },
       {
         "id": "glm-5.1",
-        "name": "GLM 5.1",
-        "meta": "Konteks 200K"
+        "name": "glm-5.1",
+        "meta": "in Rp 5.186 · cache Rp 963 · out Rp 16.299 /1 jt · ctx 200K"
+      },
+      {
+        "id": "gemini-3-5-flash",
+        "name": "gemini-3-5-flash",
+        "meta": "in Rp 5.637 · cache Rp 564 · out Rp 33.823 /1 jt · ctx 1.05M"
       },
       {
         "id": "claude-haiku-4.5",
-        "name": "Claude Haiku 4.5",
-        "meta": "Konteks 200K"
+        "name": "claude-haiku-4.5",
+        "meta": "in Rp 6.219 · cache Rp 622 · out Rp 31.096 /1 jt · ctx 200K"
       },
       {
         "id": "gpt-5.6-terra",
-        "name": "GPT 5.6 Terra",
-        "meta": "Konteks 1.05M"
-      },
-      {
-        "id": "grok-4.5",
-        "name": "Grok 4.5",
-        "meta": "Konteks 500K"
+        "name": "gpt-5.6-terra",
+        "meta": "in Rp 7.530 · cache Rp 753 · out Rp 45.178 /1 jt · ctx 1.05M"
       },
       {
         "id": "gpt-5.6-sol",
-        "name": "GPT 5.6 Sol",
-        "meta": "Konteks 1.05M"
+        "name": "gpt-5.6-sol",
+        "meta": "in Rp 8.230 · cache Rp 823 · out Rp 41.149 /1 jt · ctx 1.05M"
       },
       {
         "id": "gemini-3.1-pro-preview",
-        "name": "Gemini 3.1 Pro Preview",
-        "meta": "Konteks 1.05M"
+        "name": "gemini-3.1-pro-preview",
+        "meta": "in Rp 8.769 · cache Rp 877 · out Rp 52.614 /1 jt · ctx 1.05M"
       },
       {
         "id": "gpt-5.4",
-        "name": "GPT 5.4",
-        "meta": "Konteks 1.05M"
-      },
-      {
-        "id": "claude-sonnet-5",
-        "name": "Claude Sonnet 5",
-        "meta": "Konteks 1M"
+        "name": "gpt-5.4",
+        "meta": "in Rp 9.446 · cache Rp 945 · out Rp 56.678 /1 jt · ctx 1.05M"
       },
       {
         "id": "kimi-k3",
-        "name": "Kimi K3",
-        "meta": "Konteks 1M"
+        "name": "kimi-k3",
+        "meta": "in Rp 11.540 · cache Rp 1.154 · out Rp 57.699 /1 jt · ctx 1M"
       },
       {
-        "id": "grok-4.3",
-        "name": "Grok 4.3",
-        "meta": "Konteks 1M"
+        "id": "claude-sonnet-5",
+        "name": "claude-sonnet-5",
+        "meta": "in Rp 12.473 · cache Rp 1.247 · out Rp 62.367 /1 jt · ctx 1M"
+      },
+      {
+        "id": "grok-4.5",
+        "name": "grok-4.5",
+        "meta": "in Rp 13.231 · cache Rp 1.985 · out Rp 39.693 /1 jt · ctx 500K"
       },
       {
         "id": "grok-4.6",
-        "name": "Grok 4.6",
-        "meta": "Konteks 500K"
-      },
-      {
-        "id": "gpt-5.6-terra-pro",
-        "name": "GPT 5.6 Terra Pro",
-        "meta": "Konteks 1.05M"
-      },
-      {
-        "id": "claude-sonnet-4.5",
-        "name": "Claude Sonnet 4.5",
-        "meta": "Konteks 200K"
-      },
-      {
-        "id": "claude-opus-4.6",
-        "name": "Claude Opus 4.6",
-        "meta": "Konteks 1M"
-      },
-      {
-        "id": "claude-opus-4.7",
-        "name": "Claude Opus 4.7",
-        "meta": "Konteks 1M"
-      },
-      {
-        "id": "claude-opus-5",
-        "name": "Claude Opus 5",
-        "meta": "Konteks 1M"
+        "name": "grok-4.6",
+        "meta": "in Rp 13.588 · cache Rp 3.397 · out Rp 40.764 /1 jt · ctx 500K"
       },
       {
         "id": "gpt-5.6-sol-pro",
-        "name": "GPT 5.6 Sol Pro",
-        "meta": "Konteks 1.05M"
+        "name": "gpt-5.6-sol-pro",
+        "meta": "in Rp 14.811 · cache Rp 1.481 · out Rp 74.054 /1 jt · ctx 1.05M"
+      },
+      {
+        "id": "claude-sonnet-4.5",
+        "name": "claude-sonnet-4.5",
+        "meta": "in Rp 17.009 · cache Rp 1.701 · out Rp 85.046 /1 jt · ctx 200K"
+      },
+      {
+        "id": "claude-opus-4.6",
+        "name": "claude-opus-4.6",
+        "meta": "in Rp 18.877 · cache Rp 1.888 · out Rp 94.384 /1 jt · ctx 1M"
+      },
+      {
+        "id": "claude-opus-4.7",
+        "name": "claude-opus-4.7",
+        "meta": "in Rp 19.190 · cache Rp 1.919 · out Rp 95.951 /1 jt · ctx 1M"
+      },
+      {
+        "id": "claude-opus-5",
+        "name": "claude-opus-5",
+        "meta": "in Rp 19.641 · cache Rp 1.964 · out Rp 98.205 /1 jt · ctx 1M"
+      },
+      {
+        "id": "gpt-5.6-terra-pro",
+        "name": "gpt-5.6-terra-pro",
+        "meta": "in Rp 21.475 · cache Rp 2.148 · out Rp 128.851 /1 jt · ctx 1.05M"
       },
       {
         "id": "gpt-5.5",
-        "name": "GPT 5.5",
-        "meta": "Konteks 1.05M"
+        "name": "gpt-5.5",
+        "meta": "in Rp 23.351 · cache Rp 2.335 · out Rp 140.106 /1 jt · ctx 1.05M"
       },
       {
         "id": "claude-opus-4.8",
-        "name": "Claude Opus 4.8",
-        "meta": "Konteks 1M"
+        "name": "claude-opus-4.8",
+        "meta": "in Rp 30.977 · cache Rp 3.098 · out Rp 154.887 /1 jt · ctx 1M"
       },
       {
         "id": "gpt-6-astra",
-        "name": "GPT 6 Astra",
-        "meta": "Konteks 1.05M"
+        "name": "gpt-6-astra",
+        "meta": "in Rp 37.636 · cache Rp 3.764 · out Rp 188.181 /1 jt · ctx 1.05M"
       },
       {
         "id": "claude-opus-4.5",
-        "name": "Claude Opus 4.5",
-        "meta": "Konteks 200K"
-      },
-      {
-        "id": "claude-fable-5",
-        "name": "Claude Fable 5",
-        "meta": "Konteks 1M"
+        "name": "claude-opus-4.5",
+        "meta": "in Rp 41.167 · cache Rp 4.117 · out Rp 205.834 /1 jt · ctx 200K"
       },
       {
         "id": "claude-fable-5.1",
-        "name": "Claude Fable 5.1",
-        "meta": "Konteks 1M"
+        "name": "claude-fable-5.1",
+        "meta": "in Rp 53.381 · cache Rp 1.335 · out Rp 266.906 /1 jt · ctx 1M"
+      },
+      {
+        "id": "claude-fable-5",
+        "name": "claude-fable-5",
+        "meta": "in Rp 53.662 · cache Rp 5.366 · out Rp 268.310 /1 jt · ctx 1M"
+      },
+      {
+        "id": "grok-4.3",
+        "name": "grok-4.3",
+        "meta": "in Rp 10.683 · cache Rp 1.709 · out Rp 21.290 /1 jt · ctx 1M"
       }
     ]
   },
@@ -952,215 +1041,485 @@
     ]
   },
   "kelontongai": {
-    "status": "provided",
+    "status": "verified",
     "importedDate": "2026-09-25",
-    "sourceLabel": "Data crawl unggahan pengguna",
+    "sourceLabel": "Daftar harga situs (Rp/1 jt token)",
     "models": [
       {
-        "id": "claude",
-        "name": "claude"
-      },
-      {
         "id": "claude-opus-4.8",
-        "name": "claude-opus-4.8"
+        "name": "claude-opus-4.8",
+        "meta": "Rp 2.730/1 jt token"
       },
       {
         "id": "claude-opus-5",
-        "name": "claude-opus-5"
+        "name": "claude-opus-5",
+        "meta": "Rp 2.730/1 jt token"
       },
       {
         "id": "claude-sonnet-5",
-        "name": "claude-sonnet-5"
-      },
-      {
-        "id": "deepseek",
-        "name": "deepseek"
-      },
-      {
-        "id": "deepseek-v4-flash",
-        "name": "deepseek-v4-flash"
-      },
-      {
-        "id": "deepseek-v4-flash-0731",
-        "name": "deepseek-v4-flash-0731"
-      },
-      {
-        "id": "deepseek-v4-flash-vision-exp",
-        "name": "deepseek-v4-flash-vision-exp"
-      },
-      {
-        "id": "deepseek-v4-pro",
-        "name": "deepseek-v4-pro"
-      },
-      {
-        "id": "deepseek-v4-pro-0813",
-        "name": "deepseek-v4-pro-0813"
-      },
-      {
-        "id": "deepseek-v4.1-flash",
-        "name": "deepseek-v4.1-flash"
-      },
-      {
-        "id": "gemini",
-        "name": "gemini"
-      },
-      {
-        "id": "gemini-3.1-pro",
-        "name": "gemini-3.1-pro"
-      },
-      {
-        "id": "gemini-3.6-flash",
-        "name": "gemini-3.6-flash"
-      },
-      {
-        "id": "gemini-3.7-flash",
-        "name": "gemini-3.7-flash"
-      },
-      {
-        "id": "gemini-3.8-flash",
-        "name": "gemini-3.8-flash"
-      },
-      {
-        "id": "glm",
-        "name": "glm"
-      },
-      {
-        "id": "glm-5.2",
-        "name": "glm-5.2"
-      },
-      {
-        "id": "glm-5.3",
-        "name": "glm-5.3"
-      },
-      {
-        "id": "glm-5.3-flash",
-        "name": "glm-5.3-flash"
+        "name": "claude-sonnet-5",
+        "meta": "Rp 2.100/1 jt token"
       },
       {
         "id": "gpt-5.6-luna",
-        "name": "gpt-5.6-luna"
+        "name": "gpt-5.6-luna",
+        "meta": "Rp 420/1 jt token"
       },
       {
         "id": "gpt-5.6-sol",
-        "name": "gpt-5.6-sol"
+        "name": "gpt-5.6-sol",
+        "meta": "Rp 1.890/1 jt token"
       },
       {
         "id": "gpt-5.6-terra",
-        "name": "gpt-5.6-terra"
+        "name": "gpt-5.6-terra",
+        "meta": "Rp 1.743/1 jt token"
       },
       {
         "id": "gpt-6-astra",
-        "name": "gpt-6-astra"
+        "name": "gpt-6-astra",
+        "meta": "Rp 2.520/1 jt token"
       },
       {
         "id": "gpt-6-luna",
-        "name": "gpt-6-luna"
+        "name": "gpt-6-luna",
+        "meta": "Rp 357/1 jt token"
       },
       {
         "id": "gpt-6-sol",
-        "name": "gpt-6-sol"
+        "name": "gpt-6-sol",
+        "meta": "Rp 945/1 jt token"
       },
       {
-        "id": "grok-4.7",
-        "name": "grok-4.7"
+        "id": "glm-5.2",
+        "name": "glm-5.2",
+        "meta": "Rp 294/1 jt token"
       },
       {
-        "id": "hy4",
-        "name": "hy4"
+        "id": "glm-5.3",
+        "name": "glm-5.3",
+        "meta": "Rp 420/1 jt token"
       },
       {
-        "id": "mimo-v2.5",
-        "name": "mimo-v2.5"
+        "id": "glm-5.3-flash",
+        "name": "glm-5.3-flash",
+        "meta": "Rp 357/1 jt token"
       },
       {
-        "id": "mimo-v2.6-flash",
-        "name": "mimo-v2.6-flash"
+        "id": "deepseek-v4-flash",
+        "name": "deepseek-v4-flash",
+        "meta": "Rp 315/1 jt token"
       },
       {
-        "id": "mimo-v2.6-pro",
-        "name": "mimo-v2.6-pro"
+        "id": "deepseek-v4-flash-0731",
+        "name": "deepseek-v4-flash-0731",
+        "meta": "Rp 378/1 jt token"
       },
       {
-        "id": "minimax",
-        "name": "minimax"
+        "id": "deepseek-v4-flash-vision-exp",
+        "name": "deepseek-v4-flash-vision-exp",
+        "meta": "Rp 420/1 jt token"
       },
       {
-        "id": "minimax-m3",
-        "name": "minimax-m3"
+        "id": "deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "meta": "Rp 378/1 jt token"
       },
       {
-        "id": "muse-spark-1.2",
-        "name": "muse-spark-1.2"
+        "id": "deepseek-v4-pro-0813",
+        "name": "deepseek-v4-pro-0813",
+        "meta": "Rp 483/1 jt token"
       },
       {
-        "id": "qwen",
-        "name": "qwen"
+        "id": "deepseek-v4.1-flash",
+        "name": "deepseek-v4.1-flash",
+        "meta": "Rp 336/1 jt token"
       },
       {
-        "id": "qwen3.8-max",
-        "name": "qwen3.8-max"
-      }
-    ]
-  },
-  "oaoclipora": {
-    "status": "provided-partial",
-    "importedDate": "2026-09-25",
-    "sourceLabel": "Data crawl unggahan pengguna",
-    "models": [
-      {
-        "id": "claude-opus-5",
-        "name": "claude-opus-5"
-      }
-    ]
-  },
-  "dahono": {
-    "status": "provided-partial",
-    "importedDate": "2026-09-25",
-    "sourceLabel": "Data crawl unggahan pengguna",
-    "models": [
-      {
-        "id": "claude-sonnet-5",
-        "name": "claude-sonnet-5"
+        "id": "kimi-k2.7-code",
+        "name": "kimi-k2.7-code",
+        "meta": "Rp 378/1 jt token"
       },
       {
-        "id": "deepseek",
-        "name": "deepseek"
+        "id": "kimi-k2.8",
+        "name": "kimi-k2.8",
+        "meta": "Rp 378/1 jt token"
       },
       {
-        "id": "deepseek-r1-distill-qwen-32b",
-        "name": "deepseek-r1-distill-qwen-32b"
+        "id": "kimi-k3",
+        "name": "kimi-k3",
+        "meta": "Rp 420/1 jt token"
       },
       {
-        "id": "deepseek-v3.2-flash-netra",
-        "name": "deepseek-v3.2-flash-netra"
+        "id": "kimi-k3-fast",
+        "name": "kimi-k3-fast",
+        "meta": "Rp 315/1 jt token"
       },
       {
-        "id": "deepseek-v4-flash-0731-netra",
-        "name": "deepseek-v4-flash-0731-netra"
-      },
-      {
-        "id": "deepseek-v4.1-flash-netra",
-        "name": "deepseek-v4.1-flash-netra"
+        "id": "kimi-k3-ultra",
+        "name": "kimi-k3-ultra",
+        "meta": "Rp 525/1 jt token"
       },
       {
         "id": "gemini-3.1-pro",
-        "name": "gemini-3.1-pro"
+        "name": "gemini-3.1-pro",
+        "meta": "Rp 441/1 jt token"
       },
       {
-        "id": "glm",
-        "name": "glm"
+        "id": "gemini-3.6-flash",
+        "name": "gemini-3.6-flash",
+        "meta": "Rp 315/1 jt token"
+      },
+      {
+        "id": "gemini-3.7-flash",
+        "name": "gemini-3.7-flash",
+        "meta": "Rp 357/1 jt token"
+      },
+      {
+        "id": "gemini-3.8-flash",
+        "name": "gemini-3.8-flash",
+        "meta": "Rp 399/1 jt token"
+      },
+      {
+        "id": "muse-spark-1.2",
+        "name": "muse-spark-1.2",
+        "meta": "Rp 210/1 jt token"
+      },
+      {
+        "id": "qwen3.8-max",
+        "name": "qwen3.8-max",
+        "meta": "Rp 378/1 jt token"
+      },
+      {
+        "id": "grok-4.7",
+        "name": "grok-4.7",
+        "meta": "Rp 210/1 jt token"
+      },
+      {
+        "id": "mimo-v2.5",
+        "name": "mimo-v2.5",
+        "meta": "Rp 273/1 jt token"
+      },
+      {
+        "id": "mimo-v2.6-flash",
+        "name": "mimo-v2.6-flash",
+        "meta": "Rp 315/1 jt token"
+      },
+      {
+        "id": "mimo-v2.6-pro",
+        "name": "mimo-v2.6-pro",
+        "meta": "Rp 378/1 jt token"
+      },
+      {
+        "id": "atria-dawn",
+        "name": "atria-dawn",
+        "meta": "Rp 105/1 jt token"
+      },
+      {
+        "id": "minimax-m3",
+        "name": "minimax-m3",
+        "meta": "Rp 462/1 jt token"
+      },
+      {
+        "id": "hy4",
+        "name": "hy4",
+        "meta": "Rp 210/1 jt token"
+      }
+    ],
+    "note": "Paket coin: Starter 5 coin = Rp 4.000 (7 hari); Basic 10 coin = Rp 8.000 (14 hari); Pro 50 coin = Rp 18.000 (14 hari); Business 100 coin = Rp 30.000 (14 hari); Enterprise 200 coin = Rp 60.000 (21 hari). Promo: GAS Ultimate 500 coin = Rp 118.750 (-5, 28 hari); GAS Infinity 1000 coin = Rp 211.500 (-6, 28 hari); GAS Infinity Max 2000 coin = Rp 390.600 (-7, 60 hari)"
+  },
+  "oaoclipora": {
+    "status": "verified",
+    "importedDate": "2026-09-25",
+    "sourceLabel": "Halaman status situs",
+    "models": [
+      {
+        "id": "auto-oao-jailbreak",
+        "name": "auto-oao-jailbreak",
+        "meta": "Chat & tugas umum · sehat · ~7.2s · 3729 tps"
+      },
+      {
+        "id": "claude-fable-5",
+        "name": "claude-fable-5",
+        "meta": "Chat & tugas umum · sehat · ~25.9s · 2092 tps · VIP"
+      },
+      {
+        "id": "claude-opus-5",
+        "name": "claude-opus-5",
+        "meta": "Agent panjang + coding kompleks · sehat · ~37s · 28 tps · VIP"
+      },
+      {
+        "id": "deepseek-v4-flash",
+        "name": "deepseek-v4-flash",
+        "meta": "Agent coding hemat biaya · sehat · ~24.1s · 1052 tps"
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "meta": "Reasoning mendalam + workflow agent · sehat · ~18s · 4856 tps"
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "name": "deepseek-v4.1-flash",
+        "meta": "Chat & tugas umum · sehat · ~4.4s · 53 tps · VIP"
+      },
+      {
+        "id": "gemini-3.5-flash",
+        "name": "gemini-3.5-flash",
+        "meta": "Chat & tugas umum · sehat · ~6.9s · 252 tps · VIP"
+      },
+      {
+        "id": "glm-5.2",
+        "name": "glm-5.2",
+        "meta": "Agent/reasoning konteks panjang · sehat · ~8.8s · 7596 tps"
+      },
+      {
+        "id": "glm-5.3",
+        "name": "glm-5.3",
+        "meta": "Coding agentic open-weight · ⚠️ perlu perhatian · ~8.9s · 28 tps · VIP"
+      },
+      {
+        "id": "glm-5.3-flash",
+        "name": "glm-5.3-flash",
+        "meta": "Coding agentic cepat · sehat · ~10.2s · 305 tps"
+      },
+      {
+        "id": "gpt-5.6-luna",
+        "name": "gpt-5.6-luna",
+        "meta": "Inferensi murah volume tinggi · sehat · ~8.9s · 145 tps"
       },
       {
         "id": "gpt-6-astra",
-        "name": "gpt-6-astra"
+        "name": "gpt-6-astra",
+        "meta": "Agen otonom end-to-end · sehat · ~23.3s · 1422 tps · VIP"
       },
       {
-        "id": "qwen-2.5-coder-32b-instruct",
-        "name": "qwen-2.5-coder-32b-instruct"
+        "id": "grok-4.5",
+        "name": "grok-4.5",
+        "meta": "Reasoning engineering/coding · sehat · ~4.5s · 358 tps"
       },
       {
-        "id": "qwen3.7-max",
-        "name": "qwen3.7-max"
+        "id": "kimi-k3",
+        "name": "kimi-k3",
+        "meta": "Konteks masif + multimodal panjang · sehat · ~10.9s · — tps · VIP"
+      },
+      {
+        "id": "mimo-v2.5",
+        "name": "mimo-v2.5",
+        "meta": "Chat & tugas umum · sehat · ~6.8s · 261 tps"
+      },
+      {
+        "id": "mimo-v2.5-pro",
+        "name": "mimo-v2.5-pro",
+        "meta": "Chat & tugas umum · sehat · ~29.4s · 2918 tps"
+      },
+      {
+        "id": "muse-spark-1.3-contributor",
+        "name": "muse-spark-1.3-contributor",
+        "meta": "Agen coding jangka panjang · sehat · ~13.7s · 4301 tps"
+      },
+      {
+        "id": "nemotron-3-ultra",
+        "name": "nemotron-3-ultra",
+        "meta": "Chat & tugas umum · sehat · ~4.5s · 2177 tps"
+      },
+      {
+        "id": "nemotron-3.5-lightning",
+        "name": "nemotron-3.5-lightning",
+        "meta": "Chat & tugas umum · sehat · ~10.6s · 18 tps"
+      },
+      {
+        "id": "qwen3.8-27b",
+        "name": "qwen3.8-27b",
+        "meta": "Efficiency open/self-hosted · sehat · ~7.7s · 26 tps"
+      },
+      {
+        "id": "qwen3.8-flash",
+        "name": "qwen3.8-flash",
+        "meta": "Agen multimodal cepat · sehat · ~2.2s · 88 tps"
+      }
+    ],
+    "note": "Paket: Unlimited Daily (1 hari, ♾️ Unlimited) = Rp 5.000; Unlimited Weekly (7 hari, ♾️ Unlimited) = Rp 30.000; Unlimited Monthly (30 hari, ♾️ Unlimited) = Rp 99.000; Unlimited Daily VIP (1 hari, ♾️ VIP Unlimited) = Rp 20.000; Pack Starter (7 hari, 5 jt Token) = Rp 2.500; Pack Pro (14 hari, 20 jt Token) = Rp 9.000; Pack Plus (14 hari, 50 jt Token) = Rp 17.000"
+  },
+  "dahono": {
+    "status": "verified",
+    "importedDate": "2026-09-25",
+    "sourceLabel": "Daftar model situs (berbayar + gratis)",
+    "models": [
+      {
+        "id": "deepseek-v4-flash-0731-netra",
+        "name": "deepseek-v4-flash-0731-netra",
+        "meta": "Teks + Vision · tier starter · in Rp 7.000 · out Rp 13.000 /1 jt"
+      },
+      {
+        "id": "deepseek-v4.1-flash-netra",
+        "name": "deepseek-v4.1-flash-netra",
+        "meta": "Teks + Vision · tier starter · in Rp 10.000 · out Rp 25.000 /1 jt"
+      },
+      {
+        "id": "gemini-3.1-pro",
+        "name": "gemini-3.1-pro",
+        "meta": "Teks + Vision · tier starter · in Rp 3.500 · out Rp 21.000 /1 jt"
+      },
+      {
+        "id": "gpt-5.6",
+        "name": "gpt-5.6",
+        "meta": "Teks + Vision · tier pro · in Rp 3.500 · out Rp 10.000 /1 jt"
+      },
+      {
+        "id": "gpt-5.6-luna",
+        "name": "gpt-5.6-luna",
+        "meta": "Teks + Vision · tier pro · in Rp 4.000 · out Rp 12.000 /1 jt"
+      },
+      {
+        "id": "gpt-5.6-sol-custom",
+        "name": "gpt-5.6-sol-custom",
+        "meta": "Teks + Vision · tier pro · in Rp 12.000 · out Rp 55.000 /1 jt"
+      },
+      {
+        "id": "gpt-5.6-terra",
+        "name": "gpt-5.6-terra",
+        "meta": "Teks + Vision · tier pro · in Rp 6.000 · out Rp 25.000 /1 jt"
+      },
+      {
+        "id": "gpt-6-astra",
+        "name": "gpt-6-astra",
+        "meta": "Teks + Vision · tier pro · in Rp 17.000 · out Rp 80.000 /1 jt"
+      },
+      {
+        "id": "minimax-m3",
+        "name": "minimax-m3",
+        "meta": "Teks · tier starter · in Rp 2.000 · out Rp 2.000 /1 jt"
+      },
+      {
+        "id": "auto",
+        "name": "auto",
+        "meta": "gratis"
+      },
+      {
+        "id": "deepseek-v4-custom",
+        "name": "deepseek-v4-custom",
+        "meta": "gratis"
+      },
+      {
+        "id": "deepseek-v4-flash",
+        "name": "deepseek-v4-flash",
+        "meta": "gratis"
+      },
+      {
+        "id": "deepseek-v4-flash-0731",
+        "name": "deepseek-v4-flash-0731",
+        "meta": "gratis"
+      },
+      {
+        "id": "deepseek-v4-flash-vision",
+        "name": "deepseek-v4-flash-vision",
+        "meta": "gratis"
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "meta": "gratis"
+      },
+      {
+        "id": "deepseek-v4-pro-0813",
+        "name": "deepseek-v4-pro-0813",
+        "meta": "gratis"
+      },
+      {
+        "id": "deepseek-v4.1-custom",
+        "name": "deepseek-v4.1-custom",
+        "meta": "gratis"
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "name": "deepseek-v4.1-flash",
+        "meta": "gratis"
+      },
+      {
+        "id": "glm-5.1",
+        "name": "glm-5.1",
+        "meta": "gratis"
+      },
+      {
+        "id": "glm-5.2",
+        "name": "glm-5.2",
+        "meta": "gratis"
+      },
+      {
+        "id": "glm-5.2-custom",
+        "name": "glm-5.2-custom",
+        "meta": "gratis"
+      },
+      {
+        "id": "glm-5.3",
+        "name": "glm-5.3",
+        "meta": "gratis"
+      },
+      {
+        "id": "glm-5.3-custom",
+        "name": "glm-5.3-custom",
+        "meta": "gratis"
+      },
+      {
+        "id": "glm-5.3-flash",
+        "name": "glm-5.3-flash",
+        "meta": "gratis"
+      },
+      {
+        "id": "glm-5.3-flash-custom",
+        "name": "glm-5.3-flash-custom",
+        "meta": "gratis"
+      },
+      {
+        "id": "glm-5.3-flashx",
+        "name": "glm-5.3-flashx",
+        "meta": "gratis"
+      },
+      {
+        "id": "glm-5.3-flashx-custom",
+        "name": "glm-5.3-flashx-custom",
+        "meta": "gratis"
+      },
+      {
+        "id": "hy3",
+        "name": "hy3",
+        "meta": "gratis"
+      },
+      {
+        "id": "hy4",
+        "name": "hy4",
+        "meta": "gratis"
+      },
+      {
+        "id": "kimi-k2.7-code",
+        "name": "kimi-k2.7-code",
+        "meta": "gratis"
+      },
+      {
+        "id": "kimi-k2.7-code-highspeed",
+        "name": "kimi-k2.7-code-highspeed",
+        "meta": "gratis"
+      },
+      {
+        "id": "kimi-k3",
+        "name": "kimi-k3",
+        "meta": "gratis"
+      },
+      {
+        "id": "kimi-k3-custom",
+        "name": "kimi-k3-custom",
+        "meta": "gratis"
+      },
+      {
+        "id": "mimo-v2.5-pro",
+        "name": "mimo-v2.5-pro",
+        "meta": "gratis"
+      },
+      {
+        "id": "union-alpha",
+        "name": "union-alpha",
+        "meta": "gratis"
       }
     ]
   },
@@ -2121,6 +2480,936 @@
         ]
       }
     ]
+  },
+  "cosmoshubid": {
+    "status": "verified",
+    "importedDate": "2026-09-25",
+    "sourceLabel": "Daftar model bot Telegram",
+    "models": [
+      {
+        "id": "qwen-3.7-max",
+        "name": "qwen-3.7-max",
+        "meta": ""
+      },
+      {
+        "id": "gemini-3.1-pro",
+        "name": "gemini-3.1-pro",
+        "meta": ""
+      },
+      {
+        "id": "kimi-k2.7-code",
+        "name": "kimi-k2.7-code",
+        "meta": ""
+      },
+      {
+        "id": "glm-5.2",
+        "name": "glm-5.2",
+        "meta": ""
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "meta": ""
+      },
+      {
+        "id": "deepseek-v4-flash",
+        "name": "deepseek-v4-flash",
+        "meta": ""
+      },
+      {
+        "id": "kimi-k3",
+        "name": "kimi-k3",
+        "meta": ""
+      },
+      {
+        "id": "minimax-m3",
+        "name": "minimax-m3",
+        "meta": ""
+      },
+      {
+        "id": "gemini-3.6-flash",
+        "name": "gemini-3.6-flash",
+        "meta": ""
+      },
+      {
+        "id": "deepseek-v4-flash-0731",
+        "name": "deepseek-v4-flash-0731",
+        "meta": ""
+      },
+      {
+        "id": "qwen-3.8-max",
+        "name": "qwen-3.8-max",
+        "meta": ""
+      },
+      {
+        "id": "gemini-3.7-flash",
+        "name": "gemini-3.7-flash",
+        "meta": ""
+      },
+      {
+        "id": "glm-5.3",
+        "name": "glm-5.3",
+        "meta": ""
+      },
+      {
+        "id": "deepseek-v4-pro-0813",
+        "name": "deepseek-v4-pro-0813",
+        "meta": ""
+      },
+      {
+        "id": "glm-5.3-flash",
+        "name": "glm-5.3-flash",
+        "meta": ""
+      },
+      {
+        "id": "qwen-3.8-flash",
+        "name": "qwen-3.8-flash",
+        "meta": ""
+      },
+      {
+        "id": "qwen-3.8-max-0902",
+        "name": "qwen-3.8-max-0902",
+        "meta": ""
+      },
+      {
+        "id": "gemini-3.8-flash",
+        "name": "gemini-3.8-flash",
+        "meta": ""
+      },
+      {
+        "id": "qwen-3.7-flash",
+        "name": "qwen-3.7-flash",
+        "meta": ""
+      },
+      {
+        "id": "qwen-3.7-plus",
+        "name": "qwen-3.7-plus",
+        "meta": ""
+      },
+      {
+        "id": "qwen-3.6-flash",
+        "name": "qwen-3.6-flash",
+        "meta": ""
+      },
+      {
+        "id": "qwen-3.6-plus",
+        "name": "qwen-3.6-plus",
+        "meta": ""
+      },
+      {
+        "id": "qwen-3.5-flash",
+        "name": "qwen-3.5-flash",
+        "meta": ""
+      },
+      {
+        "id": "qwen-3.5-plus",
+        "name": "qwen-3.5-plus",
+        "meta": ""
+      },
+      {
+        "id": "deepseek-v3.2",
+        "name": "deepseek-v3.2",
+        "meta": ""
+      },
+      {
+        "id": "glm-5.1",
+        "name": "glm-5.1",
+        "meta": ""
+      },
+      {
+        "id": "minimax-m2.7",
+        "name": "minimax-m2.7",
+        "meta": ""
+      },
+      {
+        "id": "glm-5.0-turbo",
+        "name": "glm-5.0-turbo",
+        "meta": ""
+      },
+      {
+        "id": "glm-5v-turbo",
+        "name": "glm-5v-turbo",
+        "meta": ""
+      },
+      {
+        "id": "kimi-k2.6",
+        "name": "kimi-k2.6",
+        "meta": ""
+      },
+      {
+        "id": "kimi-k2.5",
+        "name": "kimi-k2.5",
+        "meta": ""
+      },
+      {
+        "id": "hy4-preview",
+        "name": "hy4-preview",
+        "meta": ""
+      },
+      {
+        "id": "hy3",
+        "name": "hy3",
+        "meta": ""
+      },
+      {
+        "id": "deepseek-v3.2-free",
+        "name": "deepseek-v3.2-free",
+        "meta": ""
+      },
+      {
+        "id": "hy3-free",
+        "name": "hy3-free",
+        "meta": ""
+      },
+      {
+        "id": "hy4-preview-free",
+        "name": "hy4-preview-free",
+        "meta": ""
+      },
+      {
+        "id": "gpt-5.6-luna",
+        "name": "gpt-5.6-luna",
+        "meta": ""
+      },
+      {
+        "id": "gpt-5.6-terra",
+        "name": "gpt-5.6-terra",
+        "meta": ""
+      },
+      {
+        "id": "gpt-5.6-sol",
+        "name": "gpt-5.6-sol",
+        "meta": ""
+      },
+      {
+        "id": "claude-opus-4.6",
+        "name": "claude-opus-4.6",
+        "meta": ""
+      },
+      {
+        "id": "claude-opus-4.7",
+        "name": "claude-opus-4.7",
+        "meta": ""
+      },
+      {
+        "id": "claude-opus-5",
+        "name": "claude-opus-5",
+        "meta": ""
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "name": "deepseek-v4.1-flash",
+        "meta": ""
+      },
+      {
+        "id": "gpt-6-astra",
+        "name": "gpt-6-astra",
+        "meta": ""
+      },
+      {
+        "id": "gpt-5.5",
+        "name": "gpt-5.5",
+        "meta": ""
+      },
+      {
+        "id": "claude-sonnet-5",
+        "name": "claude-sonnet-5",
+        "meta": ""
+      },
+      {
+        "id": "claude-sonnet-4.6",
+        "name": "claude-sonnet-4.6",
+        "meta": ""
+      },
+      {
+        "id": "claude-opus-4.8",
+        "name": "claude-opus-4.8",
+        "meta": ""
+      },
+      {
+        "id": "claude-fable-5",
+        "name": "claude-fable-5",
+        "meta": ""
+      },
+      {
+        "id": "claude-fable-5.1",
+        "name": "claude-fable-5.1",
+        "meta": ""
+      },
+      {
+        "id": "grok-composer-2.5-fast",
+        "name": "grok-composer-2.5-fast",
+        "meta": ""
+      },
+      {
+        "id": "grok-4.3",
+        "name": "grok-4.3",
+        "meta": ""
+      },
+      {
+        "id": "grok-4.5",
+        "name": "grok-4.5",
+        "meta": ""
+      },
+      {
+        "id": "grok-4.6",
+        "name": "grok-4.6",
+        "meta": ""
+      },
+      {
+        "id": "grok-build-0.1",
+        "name": "grok-build-0.1",
+        "meta": ""
+      },
+      {
+        "id": "glm-5.3-flashx",
+        "name": "glm-5.3-flashx",
+        "meta": ""
+      }
+    ]
+  },
+  "kiosapi": {
+    "status": "verified",
+    "importedDate": "2026-09-25",
+    "sourceLabel": "Tabel harga situs (USD/1 jt token)",
+    "models": [
+      {
+        "id": "atria-dawn-preview",
+        "name": "atria-dawn-preview",
+        "meta": "Atria · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "big-pickle",
+        "name": "big-pickle",
+        "meta": "OpenCode · in $14 · out $28 /1 jt"
+      },
+      {
+        "id": "claude-fable-5",
+        "name": "claude-fable-5",
+        "meta": "Anthropic · in $5 · out $25 /1 jt"
+      },
+      {
+        "id": "claude-opus-4-6",
+        "name": "claude-opus-4-6",
+        "meta": "Anthropic · in $1 · out $5 /1 jt"
+      },
+      {
+        "id": "claude-opus-4-7",
+        "name": "claude-opus-4-7",
+        "meta": "Anthropic · in $1 · out $5 /1 jt"
+      },
+      {
+        "id": "claude-opus-4-8",
+        "name": "claude-opus-4-8",
+        "meta": "Anthropic · in $1 · out $5 /1 jt"
+      },
+      {
+        "id": "claude-opus-5",
+        "name": "claude-opus-5",
+        "meta": "Anthropic · in $1 · out $5 /1 jt"
+      },
+      {
+        "id": "claude-sonnet-4-6",
+        "name": "claude-sonnet-4-6",
+        "meta": "Anthropic · in $6 · out $3 /1 jt"
+      },
+      {
+        "id": "claude-sonnet-5",
+        "name": "claude-sonnet-5",
+        "meta": "Anthropic · in $4 · out $2 /1 jt"
+      },
+      {
+        "id": "codex-auto-review",
+        "name": "codex-auto-review",
+        "meta": "OpenAI · in $1 · out $6 /1 jt"
+      },
+      {
+        "id": "deepseek-v4-flash",
+        "name": "deepseek-v4-flash",
+        "meta": "DeepSeek · in $3 · out $12 /1 jt"
+      },
+      {
+        "id": "deepseek-v4-flash-vision-exp",
+        "name": "deepseek-v4-flash-vision-exp",
+        "meta": "DeepSeek · in $6 · out $24 /1 jt"
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "meta": "DeepSeek · in $264 · out $792 /1 jt"
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "name": "deepseek-v4.1-flash",
+        "meta": "DeepSeek · in $6 · out $24 /1 jt"
+      },
+      {
+        "id": "dots-3-note-preview",
+        "name": "dots-3-note-preview",
+        "meta": "Dots · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "gemini-3.6-flash",
+        "name": "gemini-3.6-flash",
+        "meta": "Google · in $375 · out $1875 /1 jt"
+      },
+      {
+        "id": "gemini-3.7-flash",
+        "name": "gemini-3.7-flash",
+        "meta": "Google · in $75 · out $375 /1 jt"
+      },
+      {
+        "id": "gemini-3.8-flash",
+        "name": "gemini-3.8-flash",
+        "meta": "Google · in $75 · out $375 /1 jt"
+      },
+      {
+        "id": "glm-5.2",
+        "name": "glm-5.2",
+        "meta": "Z.AI · in $28 · out $88 /1 jt"
+      },
+      {
+        "id": "glm-5.3",
+        "name": "glm-5.3",
+        "meta": "Z.AI · in $28 · out $88 /1 jt"
+      },
+      {
+        "id": "glm-5.3-flash",
+        "name": "glm-5.3-flash",
+        "meta": "Z.AI · in $3 · out $1 /1 jt"
+      },
+      {
+        "id": "glm-5.3-flashx",
+        "name": "glm-5.3-flashx",
+        "meta": "Z.AI · in $0.074 · out $0.25 /1 jt"
+      },
+      {
+        "id": "gpt-5.5",
+        "name": "gpt-5.5",
+        "meta": "OpenAI · in $25 · out $15 /1 jt"
+      },
+      {
+        "id": "gpt-5.6-luna",
+        "name": "gpt-5.6-luna",
+        "meta": "OpenAI · in $3 · out $3 /1 jt"
+      },
+      {
+        "id": "gpt-5.6-sol",
+        "name": "gpt-5.6-sol",
+        "meta": "OpenAI · in $1 · out $6 /1 jt"
+      },
+      {
+        "id": "gpt-5.6-terra",
+        "name": "gpt-5.6-terra",
+        "meta": "OpenAI · in $4 · out $24 /1 jt"
+      },
+      {
+        "id": "gpt-6-astra",
+        "name": "gpt-6-astra",
+        "meta": "OpenAI · in $2 · out $1 /1 jt"
+      },
+      {
+        "id": "gpt-6-sol",
+        "name": "gpt-6-sol",
+        "meta": "OpenAI · in $4 · out $2 /1 jt"
+      },
+      {
+        "id": "gpt-image-2-5-flare",
+        "name": "gpt-image-2-5-flare",
+        "meta": "OpenI · in $302 · out $41 /1 jt"
+      },
+      {
+        "id": "gpt-image-2-5-sunburst",
+        "name": "gpt-image-2-5-sunburst",
+        "meta": "OpenAI · in $302 · out $41 /1 jt"
+      },
+      {
+        "id": "grok-4.5",
+        "name": "grok-4.5",
+        "meta": "? · in $2 · out $6 /1 jt"
+      },
+      {
+        "id": "grok-4.7",
+        "name": "grok-4.7",
+        "meta": "xAI · in $2 · out $6 /1 jt"
+      },
+      {
+        "id": "hy3",
+        "name": "hy3",
+        "meta": "Tencent · in $264 · out $1056 /1 jt"
+      },
+      {
+        "id": "hy4-preview",
+        "name": "hy4-preview",
+        "meta": "Tencent · in $1668 · out $5002 /1 jt"
+      },
+      {
+        "id": "kimi-k2.7-code",
+        "name": "kimi-k2.7-code",
+        "meta": "Moonshot AI · in $19 · out $8 /1 jt"
+      },
+      {
+        "id": "kimi-k3",
+        "name": "kimi-k3",
+        "meta": "Moonshot AI · in $6 · out $3 /1 jt"
+      },
+      {
+        "id": "laguna-s-2.1",
+        "name": "laguna-s-2.1",
+        "meta": "Poolside · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "lfm-2.5-2.6b",
+        "name": "lfm-2.5-2.6b",
+        "meta": "LFM · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "ling-3.0-flash-fin",
+        "name": "ling-3.0-flash-fin",
+        "meta": "AntGroup · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "ling-3.0-flash-sante",
+        "name": "ling-3.0-flash-sante",
+        "meta": "AntGroup · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "mimo-v2.5",
+        "name": "mimo-v2.5",
+        "meta": "Xiaomi · in $14 · out $28 /1 jt"
+      },
+      {
+        "id": "mimo-v2.6-flash",
+        "name": "mimo-v2.6-flash",
+        "meta": "AI per VM he · in $14 · out $28 /1 jt"
+      },
+      {
+        "id": "minimax-m2.7",
+        "name": "minimax-m2.7",
+        "meta": "MiniMax · in $6 · out $3 /1 jt"
+      },
+      {
+        "id": "minimax-m3",
+        "name": "minimax-m3",
+        "meta": "MiniMax · in $6 · out $24 /1 jt"
+      },
+      {
+        "id": "muse-spark-1.2-contributor",
+        "name": "muse-spark-1.2-contributor",
+        "meta": "Meta · in $1 · out $2 /1 jt"
+      },
+      {
+        "id": "muse-spark-1.3-contributor",
+        "name": "muse-spark-1.3-contributor",
+        "meta": "? · in $1 · out $2 /1 jt"
+      },
+      {
+        "id": "nemotron-3-super-120b-a12b",
+        "name": "nemotron-3-super-120b-a12b",
+        "meta": "Nvidia · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "nemotron-3-ultra",
+        "name": "nemotron-3-ultra",
+        "meta": "Nvidia · in $14 · out $28 /1 jt"
+      },
+      {
+        "id": "nemotron-3-ultra-550b-a55b",
+        "name": "nemotron-3-ultra-550b-a55b",
+        "meta": "Nvidia · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "nemotron-3.5-lightning",
+        "name": "nemotron-3.5-lightning",
+        "meta": "Nvidia · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "grok-4.6",
+        "name": "grok-4.6",
+        "meta": "xAI · in $2 · out $6 /1 jt"
+      },
+      {
+        "id": "muse-spark-1.1-contributor",
+        "name": "muse-spark-1.1-contributor",
+        "meta": "Meta · in $1 · out $2 /1 jt"
+      },
+      {
+        "id": "nex-n2.5-mini",
+        "name": "nex-n2.5-mini",
+        "meta": "Nex · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "north-mini-code",
+        "name": "north-mini-code",
+        "meta": "Cohere · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "qwen3.7-max",
+        "name": "qwen3.7-max",
+        "meta": "Alibaba · in $295 · out $885 /1 jt"
+      },
+      {
+        "id": "qwen3.8-max",
+        "name": "qwen3.8-max",
+        "meta": "Alibaba · in $4 · out $12 /1 jt"
+      },
+      {
+        "id": "sensenova-6.8-flash-lite",
+        "name": "sensenova-6.8-flash-lite",
+        "meta": "SenseNova · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "space-bunny",
+        "name": "space-bunny",
+        "meta": "Space · in $14 · out $28 /1 jt"
+      },
+      {
+        "id": "step-3.7-flash",
+        "name": "step-3.7-flash",
+        "meta": "StepFun · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "deepseek-v4.1-flash-req",
+        "name": "deepseek-v4.1-flash-req",
+        "meta": "? · in — · out — /1 jt"
+      },
+      {
+        "id": "glm-5.3-flash-req",
+        "name": "glm-5.3-flash-req",
+        "meta": "? · in — · out — /1 jt"
+      },
+      {
+        "id": "gpt-image-2",
+        "name": "gpt-image-2",
+        "meta": "? · in — · out — /1 jt"
+      }
+    ]
+  },
+  "pecutaan": {
+    "status": "verified",
+    "importedDate": "2026-09-25",
+    "sourceLabel": "Daftar model situs (multiplier kuota)",
+    "models": [
+      {
+        "id": "auto",
+        "name": "auto",
+        "meta": "1x kuota"
+      },
+      {
+        "id": "deepseek-v4-flash",
+        "name": "deepseek-v4-flash",
+        "meta": "2x kuota"
+      },
+      {
+        "id": "deepseek-v4-flash-0731",
+        "name": "deepseek-v4-flash-0731",
+        "meta": "2x kuota"
+      },
+      {
+        "id": "deepseek-v4-flash-vision-exp",
+        "name": "deepseek-v4-flash-vision-exp",
+        "meta": "vision · 2.5x kuota"
+      },
+      {
+        "id": "deepseek-v4-mod",
+        "name": "deepseek-v4-mod",
+        "meta": "3x kuota"
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "name": "deepseek-v4-pro",
+        "meta": "1.15x kuota"
+      },
+      {
+        "id": "deepseek-v4-pro-0813",
+        "name": "deepseek-v4-pro-0813",
+        "meta": "1.8x kuota"
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "name": "deepseek-v4.1-flash",
+        "meta": "vision · 2.56x kuota"
+      },
+      {
+        "id": "deepseek-v4.1-mod",
+        "name": "deepseek-v4.1-mod",
+        "meta": "vision · 3.2x kuota"
+      },
+      {
+        "id": "glm-5.1",
+        "name": "glm-5.1",
+        "meta": "1x kuota"
+      },
+      {
+        "id": "glm-5.2",
+        "name": "glm-5.2",
+        "meta": "1.25x kuota"
+      },
+      {
+        "id": "glm-5.2-mod",
+        "name": "glm-5.2-mod",
+        "meta": "3x kuota"
+      },
+      {
+        "id": "glm-5.3-flash",
+        "name": "glm-5.3-flash",
+        "meta": "vision · 2x kuota"
+      },
+      {
+        "id": "glm-5.3-flash-mod",
+        "name": "glm-5.3-flash-mod",
+        "meta": "vision · 3.5x kuota"
+      },
+      {
+        "id": "glm-5.3-flashx",
+        "name": "glm-5.3-flashx",
+        "meta": "vision · 2.5x kuota"
+      },
+      {
+        "id": "glm-5.3-flashx-mod",
+        "name": "glm-5.3-flashx-mod",
+        "meta": "vision · 4x kuota"
+      },
+      {
+        "id": "glm-5.3-mod",
+        "name": "glm-5.3-mod",
+        "meta": "3.2x kuota"
+      },
+      {
+        "id": "glm-5.5",
+        "name": "glm-5.5",
+        "meta": "2x kuota"
+      },
+      {
+        "id": "gpt-5.6",
+        "name": "gpt-5.6",
+        "meta": "vision · 5x kuota"
+      },
+      {
+        "id": "gpt-5.6-luna",
+        "name": "gpt-5.6-luna",
+        "meta": "vision · 5x kuota"
+      },
+      {
+        "id": "gpt-5.6-luna-b",
+        "name": "gpt-5.6-luna-b",
+        "meta": "vision · 5x kuota"
+      },
+      {
+        "id": "gpt-5.6-terra",
+        "name": "gpt-5.6-terra",
+        "meta": "vision · 10x kuota"
+      },
+      {
+        "id": "gpt-5.6-terra-b",
+        "name": "gpt-5.6-terra-b",
+        "meta": "vision · 10x kuota"
+      },
+      {
+        "id": "hy3",
+        "name": "hy3",
+        "meta": "1x kuota"
+      },
+      {
+        "id": "hy4",
+        "name": "hy4",
+        "meta": "1.4x kuota"
+      },
+      {
+        "id": "kimi-k2.7-code",
+        "name": "kimi-k2.7-code",
+        "meta": "1x kuota"
+      },
+      {
+        "id": "kimi-k2.7-code-highspeed",
+        "name": "kimi-k2.7-code-highspeed",
+        "meta": "1.5x kuota"
+      },
+      {
+        "id": "kimi-k3",
+        "name": "kimi-k3",
+        "meta": "vision · 2x kuota"
+      },
+      {
+        "id": "kimi-k3-mod",
+        "name": "kimi-k3-mod",
+        "meta": "vision · 3.5x kuota"
+      },
+      {
+        "id": "mimo-v2.5-pro",
+        "name": "mimo-v2.5-pro",
+        "meta": "1.4x kuota"
+      },
+      {
+        "id": "minimax-m3",
+        "name": "minimax-m3",
+        "meta": "1.4x kuota"
+      }
+    ],
+    "note": "Paket token: 50.00M Token = Rp 10.000 promo / Rp 16.400 reguler (Rp 200/1 jt promo); 100.00M Token ⭐ = Rp 15.000 promo / Rp 22.900 reguler (Rp 150/1 jt promo); 200.00M Token = Rp 28.000 promo / Rp 44.700 reguler (Rp 140/1 jt promo); 500.00M Token = Rp 75.000 promo / Rp 113.400 reguler (Rp 150/1 jt promo); 1.00B Token = Rp 138.000 promo / Rp 191.800 reguler (Rp 138/1 jt promo); 2.00B Token = Rp 265.000 promo / Rp 349.900 reguler (Rp 132/1 jt promo)"
+  },
+  "pecutopus": {
+    "status": "verified",
+    "importedDate": "2026-09-25",
+    "sourceLabel": "Daftar model situs",
+    "models": [
+      {
+        "id": "pecut/claude-fable-5",
+        "name": "pecut/claude-fable-5",
+        "meta": "anthropic · ctx 1M · 12x kuota"
+      },
+      {
+        "id": "pecut/claude-fable-5.1",
+        "name": "pecut/claude-fable-5.1",
+        "meta": "anthropic · ctx 1M · 12x kuota"
+      },
+      {
+        "id": "pecut/claude-haiku-4.5",
+        "name": "pecut/claude-haiku-4.5",
+        "meta": "anthropic · ctx 1M · 1.5x kuota"
+      },
+      {
+        "id": "pecut/claude-opus-4.8",
+        "name": "pecut/claude-opus-4.8",
+        "meta": "anthropic · ctx 200K · 3.5x kuota"
+      },
+      {
+        "id": "pecut/claude-opus-5",
+        "name": "pecut/claude-opus-5",
+        "meta": "anthropic · ctx 200K · 3.5x kuota"
+      },
+      {
+        "id": "pecut/claude-opus-5.5",
+        "name": "pecut/claude-opus-5.5",
+        "meta": "anthropic · ctx 1M · 3.5x kuota"
+      },
+      {
+        "id": "pecut/claude-sonnet-5",
+        "name": "pecut/claude-sonnet-5",
+        "meta": "anthropic · ctx 200K · 3x kuota"
+      },
+      {
+        "id": "pecut/deepseek-v4-flash-0731",
+        "name": "pecut/deepseek-v4-flash-0731",
+        "meta": "deepseek · ctx 200K · 1.5x kuota"
+      },
+      {
+        "id": "pecut/deepseek-v4-flash-vision-exp",
+        "name": "pecut/deepseek-v4-flash-vision-exp",
+        "meta": "deepseek · ctx 200K · 1.5x kuota"
+      },
+      {
+        "id": "pecut/deepseek-v4-mod",
+        "name": "pecut/deepseek-v4-mod",
+        "meta": "deepseek · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/deepseek-v4-pro-0813",
+        "name": "pecut/deepseek-v4-pro-0813",
+        "meta": "deepseek · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/deepseek-v4.1-flash",
+        "name": "pecut/deepseek-v4.1-flash",
+        "meta": "deepseek · ctx 200K · 1.5x kuota"
+      },
+      {
+        "id": "pecut/deepseek-v4.1-mod",
+        "name": "pecut/deepseek-v4.1-mod",
+        "meta": "deepseek · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/glm-5.2",
+        "name": "pecut/glm-5.2",
+        "meta": "zhipu · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/glm-5.2-mod",
+        "name": "pecut/glm-5.2-mod",
+        "meta": "zhipu · ctx 0K · 1x kuota"
+      },
+      {
+        "id": "pecut/glm-5.3",
+        "name": "pecut/glm-5.3",
+        "meta": "zhipu · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/glm-5.3-flash",
+        "name": "pecut/glm-5.3-flash",
+        "meta": "zhipu · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/glm-5.3-mod",
+        "name": "pecut/glm-5.3-mod",
+        "meta": "zhipu · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/gpt-5.6-luna",
+        "name": "pecut/gpt-5.6-luna",
+        "meta": "openai · ctx 200K · 1.5x kuota"
+      },
+      {
+        "id": "pecut/gpt-5.6-sol",
+        "name": "pecut/gpt-5.6-sol",
+        "meta": "openai · ctx 200K · 3x kuota"
+      },
+      {
+        "id": "pecut/gpt-5.6-terra",
+        "name": "pecut/gpt-5.6-terra",
+        "meta": "openai · ctx 200K · 3x kuota"
+      },
+      {
+        "id": "pecut/gpt-6-astra",
+        "name": "pecut/gpt-6-astra",
+        "meta": "openai · ctx 1M · 12x kuota"
+      },
+      {
+        "id": "pecut/gpt-6-sol",
+        "name": "pecut/gpt-6-sol",
+        "meta": "openai · ctx 200K · 3x kuota"
+      },
+      {
+        "id": "pecut/grok-4.6",
+        "name": "pecut/grok-4.6",
+        "meta": "xai · ctx 200K · 1.5x kuota"
+      },
+      {
+        "id": "pecut/kimi-k2.7-code",
+        "name": "pecut/kimi-k2.7-code",
+        "meta": "moonshot · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/kimi-k2.7-code-highspeed",
+        "name": "pecut/kimi-k2.7-code-highspeed",
+        "meta": "moonshot · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/kimi-k3",
+        "name": "pecut/kimi-k3",
+        "meta": "moonshot · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/kimi-k3-mod",
+        "name": "pecut/kimi-k3-mod",
+        "meta": "moonshot · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/mimo-v2.5-pro",
+        "name": "pecut/mimo-v2.5-pro",
+        "meta": "xiaomi · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/muse-spark-1.2",
+        "name": "pecut/muse-spark-1.2",
+        "meta": "meta (2/3) · ctx 200K · 1x kuota"
+      },
+      {
+        "id": "pecut/qwen3.8-max-preview",
+        "name": "pecut/qwen3.8-max-preview",
+        "meta": "alibaba · ctx 1M · 1x kuota"
+      }
+    ],
+    "note": "Paket: Pecut AI Lite = Rp 20.000 (25M (20M+5M bonus), 14 hari, ~Rp 800/1 jt); Pecut AI Plus = Rp 49.000 (65M (50M+15M bonus), 14 hari, ~Rp 754/1 jt); Pecut AI Pro = Rp 97.000 (135M (100M+35M bonus), 14 hari, ~Rp 719/1 jt); Pecut AI Max = Rp 189.000 (270M (200M+70M bonus), 30 hari, ~Rp 700/1 jt); Pecut AI Ultra = Rp 279.000 (405M (300M+105M bonus), 30 hari, ~Rp 689/1 jt); Pecut AI Titan = Rp 389.000 (580M (430M+150M bonus), 30 hari, ~Rp 671/1 jt)"
   }
 };
 });
