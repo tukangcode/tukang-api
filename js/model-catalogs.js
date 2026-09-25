@@ -14,7 +14,7 @@
       {
         "id": "claude-fable-5.1",
         "name": "claude-fable-5.1",
-        "meta": "Rp 9.250/1 jt"
+        "meta": "Rp 9/1 jt"
       },
       {
         "id": "claude-haiku-4.5",
@@ -24,27 +24,27 @@
       {
         "id": "claude-opus-4.6",
         "name": "claude-opus-4.6",
-        "meta": "Rp 3.900/1 jt"
+        "meta": "Rp 4/1 jt"
       },
       {
         "id": "claude-opus-4.7",
         "name": "claude-opus-4.7",
-        "meta": "Rp 4.400/1 jt"
+        "meta": "Rp 4/1 jt"
       },
       {
         "id": "claude-opus-4.8",
         "name": "claude-opus-4.8",
-        "meta": "Rp 4.400/1 jt"
+        "meta": "Rp 4/1 jt"
       },
       {
         "id": "claude-opus-5",
         "name": "claude-opus-5",
-        "meta": "Rp 4.400/1 jt"
+        "meta": "Rp 4/1 jt"
       },
       {
         "id": "claude-opus-5.5",
         "name": "claude-opus-5.5",
-        "meta": "Rp 2.700/1 jt"
+        "meta": "Rp 3/1 jt"
       },
       {
         "id": "claude-sonnet-4.5",
@@ -54,12 +54,12 @@
       {
         "id": "claude-sonnet-4.6",
         "name": "claude-sonnet-4.6",
-        "meta": "Rp 2.100/1 jt"
+        "meta": "Rp 2/1 jt"
       },
       {
         "id": "claude-sonnet-5",
         "name": "claude-sonnet-5",
-        "meta": "Rp 3.500/1 jt"
+        "meta": "Rp 4/1 jt"
       },
       {
         "id": "deepseek-3.2",
@@ -94,7 +94,7 @@
       {
         "id": "gemini-3.1-pro",
         "name": "gemini-3.1-pro",
-        "meta": "Rp 1.500/1 jt"
+        "meta": "Rp 2/1 jt"
       },
       {
         "id": "gemini-3.5-flash",
@@ -109,12 +109,12 @@
       {
         "id": "gemini-3.7-flash",
         "name": "gemini-3.7-flash",
-        "meta": "Rp 1.500/1 jt"
+        "meta": "Rp 2/1 jt"
       },
       {
         "id": "gemini-3.8-flash",
         "name": "gemini-3.8-flash",
-        "meta": "Rp 1.000/1 jt"
+        "meta": "Rp 1/1 jt"
       },
       {
         "id": "glm-5",
@@ -134,12 +134,12 @@
       {
         "id": "glm-5.2",
         "name": "glm-5.2",
-        "meta": "Rp 1.100/1 jt"
+        "meta": "Rp 1/1 jt"
       },
       {
         "id": "glm-5.3",
         "name": "glm-5.3",
-        "meta": "Rp 1.300/1 jt"
+        "meta": "Rp 1/1 jt"
       },
       {
         "id": "glm-5.3-flash",
@@ -149,7 +149,7 @@
       {
         "id": "glm-5.3-flashx",
         "name": "glm-5.3-flashx",
-        "meta": "Rp 1.200/1 jt"
+        "meta": "Rp 1/1 jt"
       },
       {
         "id": "glm-5v-turbo",
@@ -164,32 +164,32 @@
       {
         "id": "gpt-5.3-codex",
         "name": "gpt-5.3-codex",
-        "meta": "Rp 1.200/1 jt"
+        "meta": "Rp 1/1 jt"
       },
       {
         "id": "gpt-5.5",
         "name": "gpt-5.5",
-        "meta": "Rp 2.100/1 jt"
+        "meta": "Rp 2/1 jt"
       },
       {
         "id": "gpt-5.6-luna",
         "name": "gpt-5.6-luna",
-        "meta": "Rp 1.500/1 jt"
+        "meta": "Rp 2/1 jt"
       },
       {
         "id": "gpt-5.6-sol",
         "name": "gpt-5.6-sol",
-        "meta": "Rp 3.000/1 jt"
+        "meta": "Rp 3/1 jt"
       },
       {
         "id": "gpt-5.6-terra",
         "name": "gpt-5.6-terra",
-        "meta": "Rp 2.100/1 jt"
+        "meta": "Rp 2/1 jt"
       },
       {
         "id": "gpt-6-astra",
         "name": "gpt-6-astra",
-        "meta": "Rp 6.250/1 jt"
+        "meta": "Rp 6/1 jt"
       },
       {
         "id": "gpt-6-luna",
@@ -199,7 +199,7 @@
       {
         "id": "gpt-6-sol",
         "name": "gpt-6-sol",
-        "meta": "Rp 2.700/1 jt"
+        "meta": "Rp 3/1 jt"
       },
       {
         "id": "grok-4.3",
@@ -214,7 +214,7 @@
       {
         "id": "grok-4.6",
         "name": "grok-4.6",
-        "meta": "Rp 1.700/1 jt"
+        "meta": "Rp 2/1 jt"
       },
       {
         "id": "grok-build-0.1",
@@ -224,7 +224,7 @@
       {
         "id": "grok-composer-2.5-fast",
         "name": "grok-composer-2.5-fast",
-        "meta": "Rp 1.300/1 jt"
+        "meta": "Rp 1/1 jt"
       },
       {
         "id": "hy3",
@@ -264,7 +264,7 @@
       {
         "id": "kimi-k3",
         "name": "kimi-k3",
-        "meta": "Rp 1.300/1 jt"
+        "meta": "Rp 1/1 jt"
       },
       {
         "id": "mimo-v2.5",
@@ -2781,67 +2781,72 @@
       {
         "id": "big-pickle",
         "name": "big-pickle",
-        "meta": "OpenCode · in $14 · out $28 /1 jt"
+        "meta": "OpenCode · in $0.0014 · out $0.0028 /1 jt"
       },
       {
         "id": "claude-fable-5",
         "name": "claude-fable-5",
-        "meta": "Anthropic · in $5 · out $25 /1 jt"
+        "meta": "Anthropic · in $0.5 · out $2.5 /1 jt"
       },
       {
         "id": "claude-opus-4-6",
         "name": "claude-opus-4-6",
-        "meta": "Anthropic · in $1 · out $5 /1 jt"
+        "meta": "Anthropic · in $0.1 · out $0.5 /1 jt"
       },
       {
         "id": "claude-opus-4-7",
         "name": "claude-opus-4-7",
-        "meta": "Anthropic · in $1 · out $5 /1 jt"
+        "meta": "Anthropic · in $0.1 · out $0.5 /1 jt"
       },
       {
         "id": "claude-opus-4-8",
         "name": "claude-opus-4-8",
-        "meta": "Anthropic · in $1 · out $5 /1 jt"
+        "meta": "Anthropic · in $0.1 · out $0.5 /1 jt"
       },
       {
         "id": "claude-opus-5",
         "name": "claude-opus-5",
-        "meta": "Anthropic · in $1 · out $5 /1 jt"
+        "meta": "Anthropic · in $0.1 · out $0.5 /1 jt"
       },
       {
         "id": "claude-sonnet-4-6",
         "name": "claude-sonnet-4-6",
-        "meta": "Anthropic · in $6 · out $3 /1 jt"
+        "meta": "Anthropic · in $0.06 · out $0.3 /1 jt"
       },
       {
         "id": "claude-sonnet-5",
         "name": "claude-sonnet-5",
-        "meta": "Anthropic · in $4 · out $2 /1 jt"
+        "meta": "Anthropic · in $0.04 · out $0.2 /1 jt"
       },
       {
         "id": "codex-auto-review",
         "name": "codex-auto-review",
-        "meta": "OpenAI · in $1 · out $6 /1 jt"
+        "meta": "OpenAI · in $0.01 · out $0.06 /1 jt"
       },
       {
         "id": "deepseek-v4-flash",
         "name": "deepseek-v4-flash",
-        "meta": "DeepSeek · in $3 · out $12 /1 jt"
+        "meta": "DeepSeek · in $0.003 · out $0.012 /1 jt"
       },
       {
         "id": "deepseek-v4-flash-vision-exp",
         "name": "deepseek-v4-flash-vision-exp",
-        "meta": "DeepSeek · in $6 · out $24 /1 jt"
+        "meta": "DeepSeek · in $0.06 · out $0.24 /1 jt"
       },
       {
         "id": "deepseek-v4-pro",
         "name": "deepseek-v4-pro",
-        "meta": "DeepSeek · in $264 · out $792 /1 jt"
+        "meta": "DeepSeek · in $0.264 · out $0.792 /1 jt"
       },
       {
         "id": "deepseek-v4.1-flash",
         "name": "deepseek-v4.1-flash",
-        "meta": "DeepSeek · in $6 · out $24 /1 jt"
+        "meta": "DeepSeek · in $0.06 · out $0.24 /1 jt"
+      },
+      {
+        "id": "deepseek-v4.1-flash-req",
+        "name": "deepseek-v4.1-flash-req",
+        "meta": "DeepSeek · $0.002/call"
       },
       {
         "id": "dots-3-note-preview",
@@ -2851,32 +2856,37 @@
       {
         "id": "gemini-3.6-flash",
         "name": "gemini-3.6-flash",
-        "meta": "Google · in $375 · out $1875 /1 jt"
+        "meta": "Google · in $0.0375 · out $0.1875 /1 jt"
       },
       {
         "id": "gemini-3.7-flash",
         "name": "gemini-3.7-flash",
-        "meta": "Google · in $75 · out $375 /1 jt"
+        "meta": "Google · in $0.075 · out $0.375 /1 jt"
       },
       {
         "id": "gemini-3.8-flash",
         "name": "gemini-3.8-flash",
-        "meta": "Google · in $75 · out $375 /1 jt"
+        "meta": "Google · in $0.075 · out $0.375 /1 jt"
       },
       {
         "id": "glm-5.2",
         "name": "glm-5.2",
-        "meta": "Z.AI · in $28 · out $88 /1 jt"
+        "meta": "Z.AI · in $0.28 · out $0.88 /1 jt"
       },
       {
         "id": "glm-5.3",
         "name": "glm-5.3",
-        "meta": "Z.AI · in $28 · out $88 /1 jt"
+        "meta": "Z.AI · in $0.28 · out $0.88 /1 jt"
       },
       {
         "id": "glm-5.3-flash",
         "name": "glm-5.3-flash",
-        "meta": "Z.AI · in $3 · out $1 /1 jt"
+        "meta": "Z.AI · in $0.03 · out $0.1 /1 jt"
+      },
+      {
+        "id": "glm-5.3-flash-req",
+        "name": "glm-5.3-flash-req",
+        "meta": "Z.AI · $0.002/call"
       },
       {
         "id": "glm-5.3-flashx",
@@ -2886,82 +2896,87 @@
       {
         "id": "gpt-5.5",
         "name": "gpt-5.5",
-        "meta": "OpenAI · in $25 · out $15 /1 jt"
+        "meta": "OpenAI · in $0.25 · out $1.5 /1 jt"
       },
       {
         "id": "gpt-5.6-luna",
         "name": "gpt-5.6-luna",
-        "meta": "OpenAI · in $3 · out $3 /1 jt"
+        "meta": "OpenAI · in $0.01 · out $0.06 /1 jt"
       },
       {
         "id": "gpt-5.6-sol",
         "name": "gpt-5.6-sol",
-        "meta": "OpenAI · in $1 · out $6 /1 jt"
+        "meta": "OpenAI · in $1.1 · out $0.6 /1 jt"
       },
       {
         "id": "gpt-5.6-terra",
         "name": "gpt-5.6-terra",
-        "meta": "OpenAI · in $4 · out $24 /1 jt"
+        "meta": "OpenAI · in $0.04 · out $0.24 /1 jt"
       },
       {
         "id": "gpt-6-astra",
         "name": "gpt-6-astra",
-        "meta": "OpenAI · in $2 · out $1 /1 jt"
+        "meta": "OpenAI · in $0.2 · out $1 /1 jt"
       },
       {
         "id": "gpt-6-sol",
         "name": "gpt-6-sol",
-        "meta": "OpenAI · in $4 · out $2 /1 jt"
+        "meta": "OpenAI · in $0.04 · out $0.2 /1 jt"
+      },
+      {
+        "id": "gpt-image-2",
+        "name": "gpt-image-2",
+        "meta": "OpenAI · $0.03/call"
       },
       {
         "id": "gpt-image-2-5-flare",
         "name": "gpt-image-2-5-flare",
-        "meta": "OpenI · in $302 · out $41 /1 jt"
+        "meta": "OpenAI · $0.03/call"
       },
       {
         "id": "gpt-image-2-5-sunburst",
         "name": "gpt-image-2-5-sunburst",
-        "meta": "OpenAI · in $302 · out $41 /1 jt"
+        "meta": "OpenAI · $0.03/call"
       },
       {
         "id": "grok-4.5",
         "name": "grok-4.5",
-        "meta": "? · in $2 · out $6 /1 jt"
+        "meta": "xAI · in $0.02 · out $0.06 /1 jt"
+      },
+      {
+        "id": "grok-4.6",
+        "name": "grok-4.6",
+        "meta": "xAI · in $0.02 · out $0.06 /1 jt"
       },
       {
         "id": "grok-4.7",
         "name": "grok-4.7",
-        "meta": "xAI · in $2 · out $6 /1 jt"
+        "meta": "xAI · in $0.02 · out $0.06 /1 jt"
       },
       {
         "id": "hy3",
         "name": "hy3",
-        "meta": "Tencent · in $264 · out $1056 /1 jt"
+        "meta": "Tencent · in $0.0264 · out $0.1056 /1 jt"
       },
       {
         "id": "hy4-preview",
         "name": "hy4-preview",
-        "meta": "Tencent · in $1668 · out $5002 /1 jt"
+        "meta": "Tencent · in $0.1668 · out $0.5002 /1 jt"
       },
       {
         "id": "kimi-k2.7-code",
         "name": "kimi-k2.7-code",
-        "meta": "Moonshot AI · in $19 · out $8 /1 jt"
+        "meta": "Moonshot AI · in $0.19 · out $0.1 /1 jt"
       },
       {
         "id": "kimi-k3",
         "name": "kimi-k3",
-        "meta": "Moonshot AI · in $6 · out $3 /1 jt"
+        "meta": "Moonshot AI · in $0.6 · out $3 /1 jt"
       },
       {
         "id": "laguna-s-2.1",
         "name": "laguna-s-2.1",
         "meta": "Poolside · in $0 · out $0 /1 jt"
-      },
-      {
-        "id": "lfm-2.5-2.6b",
-        "name": "lfm-2.5-2.6b",
-        "meta": "LFM · in $0 · out $0 /1 jt"
       },
       {
         "id": "ling-3.0-flash-fin",
@@ -2974,34 +2989,29 @@
         "meta": "AntGroup · in $0 · out $0 /1 jt"
       },
       {
-        "id": "mimo-v2.5",
-        "name": "mimo-v2.5",
-        "meta": "Xiaomi · in $14 · out $28 /1 jt"
-      },
-      {
         "id": "mimo-v2.6-flash",
         "name": "mimo-v2.6-flash",
-        "meta": "AI per VM he · in $14 · out $28 /1 jt"
+        "meta": "Xiaomi · in $0.0014 · out $0.0028 /1 jt"
       },
       {
         "id": "minimax-m2.7",
         "name": "minimax-m2.7",
-        "meta": "MiniMax · in $6 · out $3 /1 jt"
+        "meta": "MiniMax · in $0.06 · out $0.24 /1 jt"
       },
       {
         "id": "minimax-m3",
         "name": "minimax-m3",
-        "meta": "MiniMax · in $6 · out $24 /1 jt"
+        "meta": "MiniMax · in $0.06 · out $0.24 /1 jt"
       },
       {
-        "id": "muse-spark-1.2-contributor",
-        "name": "muse-spark-1.2-contributor",
-        "meta": "Meta · in $1 · out $2 /1 jt"
+        "id": "muse-spark-1.1-contributor",
+        "name": "muse-spark-1.1-contributor",
+        "meta": "Meta · in $0.001 · out $0.002 /1 jt"
       },
       {
         "id": "muse-spark-1.3-contributor",
         "name": "muse-spark-1.3-contributor",
-        "meta": "? · in $1 · out $2 /1 jt"
+        "meta": "Meta · in $0.001 · out $0.002 /1 jt"
       },
       {
         "id": "nemotron-3-super-120b-a12b",
@@ -3011,12 +3021,7 @@
       {
         "id": "nemotron-3-ultra",
         "name": "nemotron-3-ultra",
-        "meta": "Nvidia · in $14 · out $28 /1 jt"
-      },
-      {
-        "id": "nemotron-3-ultra-550b-a55b",
-        "name": "nemotron-3-ultra-550b-a55b",
-        "meta": "Nvidia · in $0 · out $0 /1 jt"
+        "meta": "Nvidia · in $0.0014 · out $0.0028 /1 jt"
       },
       {
         "id": "nemotron-3.5-lightning",
@@ -3024,18 +3029,13 @@
         "meta": "Nvidia · in $0 · out $0 /1 jt"
       },
       {
-        "id": "grok-4.6",
-        "name": "grok-4.6",
-        "meta": "xAI · in $2 · out $6 /1 jt"
-      },
-      {
-        "id": "muse-spark-1.1-contributor",
-        "name": "muse-spark-1.1-contributor",
-        "meta": "Meta · in $1 · out $2 /1 jt"
-      },
-      {
         "id": "nex-n2.5-mini",
         "name": "nex-n2.5-mini",
+        "meta": "Nex · in $0 · out $0 /1 jt"
+      },
+      {
+        "id": "nex-n2.5-pro",
+        "name": "nex-n2.5-pro",
         "meta": "Nex · in $0 · out $0 /1 jt"
       },
       {
@@ -3046,12 +3046,12 @@
       {
         "id": "qwen3.7-max",
         "name": "qwen3.7-max",
-        "meta": "Alibaba · in $295 · out $885 /1 jt"
+        "meta": "Alibaba · in $0.295 · out $0.885 /1 jt"
       },
       {
         "id": "qwen3.8-max",
         "name": "qwen3.8-max",
-        "meta": "Alibaba · in $4 · out $12 /1 jt"
+        "meta": "Alibaba · in $0.4 · out $1.2 /1 jt"
       },
       {
         "id": "sensenova-6.8-flash-lite",
@@ -3061,7 +3061,7 @@
       {
         "id": "space-bunny",
         "name": "space-bunny",
-        "meta": "Space · in $14 · out $28 /1 jt"
+        "meta": "Space · in $0.0014 · out $0.0028 /1 jt"
       },
       {
         "id": "step-3.7-flash",
@@ -3069,19 +3069,19 @@
         "meta": "StepFun · in $0 · out $0 /1 jt"
       },
       {
-        "id": "deepseek-v4.1-flash-req",
-        "name": "deepseek-v4.1-flash-req",
-        "meta": "? · in — · out — /1 jt"
+        "id": "lfm-2.5-2.6b",
+        "name": "lfm-2.5-2.6b",
+        "meta": "LFM · in $0 · out $0 /1 jt"
       },
       {
-        "id": "glm-5.3-flash-req",
-        "name": "glm-5.3-flash-req",
-        "meta": "? · in — · out — /1 jt"
+        "id": "mimo-v2.5",
+        "name": "mimo-v2.5",
+        "meta": "Xiaomi · in $0.0014 · out $0.0028 /1 jt"
       },
       {
-        "id": "gpt-image-2",
-        "name": "gpt-image-2",
-        "meta": "? · in — · out — /1 jt"
+        "id": "nemotron-3-ultra-550b-a55b",
+        "name": "nemotron-3-ultra-550b-a55b",
+        "meta": "Nvidia · in $0 · out $0 /1 jt"
       }
     ]
   },
@@ -3401,7 +3401,7 @@
       {
         "id": "pecut/muse-spark-1.2",
         "name": "pecut/muse-spark-1.2",
-        "meta": "meta (2/3) · ctx 200K · 1x kuota"
+        "meta": "meta · ctx 200K · 1x kuota"
       },
       {
         "id": "pecut/qwen3.8-max-preview",
