@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-03T03:28:49.968Z",
+  "checked_at": "2026-10-03T09:22:46.388Z",
   "source": "github-actions",
   "note": "1 request per situs per run (30 menit). Bukan pemantauan model/ketersediaan layanan.",
   "sites": {
@@ -8,24 +8,24 @@
     "pecutopus": "up",
     "cosmoshubid": "up",
     "rentalmail": "up",
-    "dezgo": "up",
-    "aihorde": "up",
-    "falai": "up",
-    "runpod": "up",
     "ninerouter": "up",
-    "vastai": "up",
-    "sumopod": "up",
-    "nanogpt": "up",
+    "aihorde": "up",
+    "dezgo": "up",
     "kiosapi": "up",
     "ruvicode": "up",
-    "appverse": "up",
-    "wavespeed": "up",
+    "falai": "up",
+    "runpod": "up",
+    "sumopod": "up",
+    "tokenkoding": "up",
     "dahono": "up",
-    "pecutaan": "up",
+    "kelontongai": "up",
+    "nanogpt": "up",
+    "vastai": "up",
+    "wavespeed": "up",
     "oaoclipora": "up",
     "modelrouter": "up",
+    "pecutaan": "up",
     "marketku": "up",
-    "kelontongai": "up",
-    "tokenkoding": "up"
+    "appverse": "up"
   }
 }
